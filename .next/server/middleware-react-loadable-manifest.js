@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\index.js -> ../components/TechForgeDemo\":{\"id\":\"pages\\\\index.js -> ../components/TechForgeDemo\",\"files\":[\"static/chunks/components_TechForgeDemo_jsx.js\"]}}"
