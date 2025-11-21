@@ -213,27 +213,37 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
               <RevealAnimation delay={0.5}>
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-secondary dark:text-accent font-normal">
-                    Support
+                    Services
                   </p>
                   <ul className="space-y-5">
                     <li>
-                      <Link href="/faq" className="footer-link-v2">
-                        FAQ
+                      <Link href="/services/mobile-app-development" className="footer-link-v2">
+                        Mobile App Development
                       </Link>
                     </li>
                     <li>
-                      <Link href="/documentation" className="footer-link-v2">
-                        Documentation
+                      <Link href="/services/web-development" className="footer-link-v2">
+                        Web Development
                       </Link>
                     </li>
                     <li>
-                      <Link href="/learn" className="footer-link-v2">
-                        Tutorial
+                      <Link href="/services/ui-ux" className="footer-link-v2">
+                        UI/UX
                       </Link>
                     </li>
                     <li>
-                      <Link href="/support" className="footer-link-v2">
-                        Support
+                      <Link href="/services/seo" className="footer-link-v2">
+                        SEO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/qa" className="footer-link-v2">
+                        QA
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/devops" className="footer-link-v2">
+                        DevOps
                       </Link>
                     </li>
                   </ul>
@@ -248,13 +258,13 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                   </p>
                   <ul className="space-y-5">
                     <li>
-                      <Link href="/terms-conditions" className="footer-link-v2">
-                        Terms & Conditions
+                      <Link href="/privacy" className="footer-link-v2">
+                        Privacy Policy
                       </Link>
                     </li>
                     <li>
-                      <Link href="/privacy" className="footer-link-v2">
-                        Privacy Policy
+                      <Link href="/terms-conditions" className="footer-link-v2">
+                        Terms & Conditions
                       </Link>
                     </li>
                     <li>
@@ -263,13 +273,8 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
                       </Link>
                     </li>
                     <li>
-                      <Link href="/gdpr" className="footer-link-v2">
-                        GDPR Compliance
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/affiliate-policy" className="footer-link-v2">
-                        Affiliate Policy
+                      <Link href="/cookie-policy" className="footer-link-v2">
+                        Cookie Policy
                       </Link>
                     </li>
                   </ul>
@@ -282,7 +287,7 @@ const FooterThree: FC<FooterThreeProps> = ({ bgGradientImg, className, gradientC
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-secondary dark:text-accent/60">
-              Copyright &copy;NextSaaS – smart application for modern business
+              Copyright &copy;MZA Logics – smart application for modern business
             </p>
           </RevealAnimation>
         </div>

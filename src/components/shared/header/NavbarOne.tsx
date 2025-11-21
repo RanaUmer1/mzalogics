@@ -39,39 +39,54 @@ const NavbarOne: FC<NavbarOneProps> = ({ className, megaMenuColor, btnClassName 
           {/* logo */}
           <Logo />
           {/* navigation */}
-          <nav className="hidden items-center xl:flex">
-            <ul className="flex items-center">
-              {navigationItems.map((item) => {
-                const renderMegaMenu = () => {
-                  switch (item?.megaMenuComponent) {
-                    case 'HomeMegaMenu':
-                      return <HomeMegaMenu className={megaMenuColor} />;
-                    case 'PageMegaMenu':
-                      return <PageMegaMenu className={megaMenuColor} />;
-                    case 'AboutMenu':
-                      return <AboutMenu className={megaMenuColor} />;
-                    case 'ServicesMenu':
-                      return <ServicesMenu className={megaMenuColor} />;
-                    case 'BlogMenu':
-                      return <BlogMenu className={megaMenuColor} />;
-                    default:
-                      return null;
-                  }
-                };
+          <div className="flex items-center">
+            <nav className="hidden items-center xl:flex">
+              <ul className="flex items-center">
+                {navigationItems
+                  .filter(item => item.id !== 'contact') // Exclude contact from main nav
+                  .map((item) => {
+                    const renderMegaMenu = () => {
+                      switch (item?.megaMenuComponent) {
+                        case 'HomeMegaMenu':
+                          return <HomeMegaMenu className={megaMenuColor} />;
+                        case 'PageMegaMenu':
+                          return <PageMegaMenu className={megaMenuColor} />;
+                        case 'AboutMenu':
+                          return <AboutMenu className={megaMenuColor} />;
+                        case 'ServicesMenu':
+                          return <ServicesMenu className={megaMenuColor} />;
+                        case 'BlogMenu':
+                          return <BlogMenu className={megaMenuColor} />;
+                        default:
+                          return null;
+                      }
+                    };
 
-                // mega menu render
-                return (
-                  <li key={item?.id} className={cn('py-2.5', item?.hasDropdown && 'group/nav relative cursor-pointer')}>
-                    <NavItemLink item={item} />
-                    {item.hasDropdown && renderMegaMenu()}
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-          <NavCTAButton href="/signup-01" btnClassName={btnClassName} label="Get started" />
-          {/* mobile menu btn */}
-          <MobileMenuButton />
+                    return (
+                      <li key={item?.id} className={cn('py-2.5', item?.hasDropdown && 'group/nav relative cursor-pointer')}>
+                        <NavItemLink item={item} />
+                        {item.hasDropdown && renderMegaMenu()}
+                      </li>
+                    );
+                  })}
+              </ul>
+            </nav>
+            
+            {/* Contact Us button */}
+            {navigationItems
+              .filter(item => item.id === 'contact' && item.href && item.label)
+              .map(item => (
+                <NavCTAButton 
+                  key={item.id} 
+                  href={item.href || '#'} 
+                  btnClassName={cn('ml-4', btnClassName)} 
+                  label={item.label || 'Contact Us'}
+                />
+              ))}
+            
+            {/* mobile menu btn */}
+            <MobileMenuButton />
+          </div>
         </div>
         <MobileMenu />
       </header>

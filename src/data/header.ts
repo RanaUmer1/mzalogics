@@ -11,6 +11,7 @@ export interface MegaMenuItem {
   label: string;
   href: string;
   newPage?: boolean;
+  hasSubmenu?: boolean;  // Add this line
 }
 
 export interface MegaMenuColumn {
@@ -22,16 +23,28 @@ export const navigationItems: NavigationItem[] = [
   {
     id: 'home',
     label: 'Home',
-    href: '#',
-    hasDropdown: true,
-    megaMenuComponent: 'HomeMegaMenu',
+    href: '/',
+    hasDropdown: false,
   },
   {
-    id: 'pages',
-    label: 'Pages',
+    id: 'services',
+    label: 'Services',
+    href: '/our-services-01',
+    hasDropdown: true,
+    megaMenuComponent: 'ServicesMenu',
+  },
+  {
+    id: 'case-studies',
+    label: 'Case Studies',
+    href: '/case-studies',
+    hasDropdown: false,
+  },
+  {
+    id: 'industries',
+    label: 'Industries',
     href: '#',
     hasDropdown: true,
-    megaMenuComponent: 'PageMegaMenu',
+    megaMenuComponent: 'IndustriesMenu',
   },
   {
     id: 'about',
@@ -41,18 +54,16 @@ export const navigationItems: NavigationItem[] = [
     megaMenuComponent: 'AboutMenu',
   },
   {
-    id: 'services',
-    label: 'Services',
-    href: '#',
-    hasDropdown: true,
-    megaMenuComponent: 'ServicesMenu',
-  },
-  {
     id: 'blog',
     label: 'Blog',
-    href: '#',
-    hasDropdown: true,
-    megaMenuComponent: 'BlogMenu',
+    href: '/blog',
+    hasDropdown: false,
+  },
+  {
+    id: 'faq',
+    label: 'FAQ',
+    href: '/faq',
+    hasDropdown: false,
   },
   {
     id: 'contact',
@@ -64,9 +75,9 @@ export const navigationItems: NavigationItem[] = [
 
 // About Menu Data
 export const aboutMenuItems: MegaMenuItem[] = [
-  { id: 'about-1', label: 'About 01', href: '/about-01' },
-  { id: 'about-2', label: 'About 02', href: '/about-02' },
-  { id: 'about-3', label: 'About 03', href: '/about-03' },
+  { id: 'our-story', label: 'Our Story', href: '/about/our-story' },
+  { id: 'our-team', label: 'Our Team', href: '/about/our-team' },
+  { id: 'careers', label: 'Careers', href: '/careers' },
 ];
 
 // Blog Menu Data
@@ -79,10 +90,35 @@ export const blogMenuItems: MegaMenuItem[] = [
 
 // Services Menu Data
 export const servicesMenuItems: MegaMenuItem[] = [
-  { id: 'services-1', label: 'Services Page 01', href: '/our-services-01' },
-  { id: 'services-2', label: 'Services Page 02', href: '/our-services-02' },
-  { id: 'services-3', label: 'Services Page 03', href: '/our-services-03' },
-  { id: 'services-details', label: 'Services Details', href: '/our-services/cost-allocation-and-calculation' },
+  { id: 'mobile-app-dev', label: 'Mobile App Development', href: '/services/mobile-app-development' },
+  { id: 'web-dev', label: 'Web Development', href: '/services/web-development' },
+  { id: 'ui-ux-design', label: 'UI/UX Design', href: '/services/ui-ux-design' },
+  { 
+    id: 'qa', 
+    label: 'Quality Assurance', 
+    href: '/services/quality-assurance',
+    hasSubmenu: true
+  },
+  { id: 'digital-marketing', label: 'Digital Marketing', href: '/services/digital-marketing' },
+  { id: 'cloud-devops', label: 'Cloud & DevOps', href: '/services/cloud-devops' },
+  { 
+    id: 'maintenance-support', 
+    label: 'Maintenance & Support', 
+    href: '/services/maintenance-support',
+    hasSubmenu: true
+  },
+];
+
+// Industries Menu Data
+export const industriesMenuItems: MegaMenuItem[] = [
+  { id: 'ecommerce', label: 'E-commerce', href: '/industries/ecommerce' },
+  { id: 'healthcare', label: 'Healthcare', href: '/industries/healthcare' },
+  { id: 'fintech', label: 'FinTech', href: '/industries/fintech' },
+  { id: 'real-estate', label: 'Real Estate', href: '/industries/real-estate' },
+  { id: 'logistics', label: 'Logistics', href: '/industries/logistics' },
+  { id: 'education', label: 'Education', href: '/industries/education' },
+  { id: 'travel-hospitality', label: 'Travel & Hospitality', href: '/industries/travel-hospitality' },
+  { id: 'saas-products', label: 'SaaS Products', href: '/industries/saas-products' },
 ];
 
 // Home Mega Menu Data (3 columns)

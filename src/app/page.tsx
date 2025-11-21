@@ -1,14 +1,12 @@
-import About from '@/components/homepage-01/About';
-import Blog from '@/components/homepage-01/Blog';
-import Faq from '@/components/homepage-01/Faq';
-import Hero from '@/components/homepage-01/Hero';
-import HowItWorks from '@/components/homepage-01/HowItWorks';
-import OurServices from '@/components/homepage-01/OurServices';
-import Testimonial from '@/components/homepage-01/Testimonial';
-import TimelineIntegration from '@/components/homepage-01/TimelineIntegration';
-import CTAV1 from '@/components/shared/cta/CTAV1';
-
-import FooterOne from '@/components/shared/footer/FooterOne';
+import CTA from '@/components/homepage-17/CTA';
+import Features from '@/components/homepage-17/Features';
+import Hero from '@/components/homepage-17/Hero';
+import Integration from '@/components/homepage-17/Integration';
+import Pricing from '@/components/homepage-17/Pricing';
+import Process from '@/components/homepage-17/Process';
+import WhatWeOffer from '@/components/homepage-17/WhatWeOffer';
+import WhyChooseUs from '@/components/homepage-17/WhyChooseUs';
+import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarOne from '@/components/shared/header/NavbarOne';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -16,39 +14,30 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Crypto - NextSaaS',
+  title: 'App Development - NextSaaS',
 };
 
-const Homepage01 = () => {
+const Homepage = () => {
   return (
     <Fragment>
       <NavbarOne
-        className="border-stroke-2 dark:border-stroke-6 bg-accent dark:bg-background-9 border"
-        btnClassName="btn-primary hover:btn-white dark:hover:btn-white"
+        className="bg-white top-12 dark:bg-background-5"
+        btnClassName="btn-secondary hover:btn-white dark:btn-accent dark:hover:btn-white-dark"
       />
       <main className="bg-background-2 dark:bg-background-5">
         <Hero />
-        <About />
-        <HowItWorks />
-        <OurServices />
-        <Faq />
-        <TimelineIntegration />
-        <Testimonial />
-        <Blog />
-        <CTAV1
-          className="dark:bg-background-6 bg-white"
-          badgeClass="hidden"
-          ctaHeading="Build a complete website using the"
-          spanText="assistance"
-          description="Start your free trial today and see your ideas come to life easily and creatively."
-          btnClass="hover:btn-secondary dark:hover:btn-white"
-          ctaBtnText="Get started"
-        />
+        <WhatWeOffer />
+        <WhyChooseUs />
+        <Features />
+        <Process />
+        <Integration />
+        <Pricing />
+        <CTA />
       </main>
-      <FooterOne />
+      <FooterThree />
     </Fragment>
   );
 };
 
-Homepage01.displayName = 'Homepage01';
-export default Homepage01;
+Homepage.displayName = 'Homepage';
+export default Homepage;

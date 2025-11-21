@@ -112,26 +112,41 @@ const FooterTwo = () => {
             <div className="col-span-12 md:col-span-4">
               <RevealAnimation delay={0.5}>
                 <div className="space-y-8">
-                  <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Support</p>
+                  <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Services</p>
                   <ul className="space-y-5">
                     <li>
-                      <Link href="/faq" className="footer-link">
-                        FAQ
+                      <Link href="/services" className="footer-link">
+                        All Services
                       </Link>
                     </li>
                     <li>
-                      <Link href="/documentation" className="footer-link">
-                        Documentation
+                      <Link href="/services/mobile-app-development" className="footer-link">
+                        Mobile App Development
                       </Link>
                     </li>
                     <li>
-                      <Link href="/tutorial" className="footer-link">
-                        Tutorial
+                      <Link href="/services/web-development" className="footer-link">
+                        Web Development
                       </Link>
                     </li>
                     <li>
-                      <Link href="/support" className="footer-link">
-                        Support
+                      <Link href="/services/ui-ux" className="footer-link">
+                        UI/UX
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/seo" className="footer-link">
+                        SEO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/qa" className="footer-link">
+                        QA
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/devops" className="footer-link">
+                        DevOps
                       </Link>
                     </li>
                   </ul>
@@ -178,7 +193,7 @@ const FooterTwo = () => {
           <FooterDivider className="bg-stroke-6 dark:bg-accent/10" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 max-sm:text-tagline-2 text-primary-50 font-normal">
-              Copyright &copy;NextSaaS – smart application for modern business
+              Copyright &copy;MZA Logics – smart application for modern business
             </p>
           </RevealAnimation>
         </div>
