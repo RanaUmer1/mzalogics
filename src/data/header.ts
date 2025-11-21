@@ -69,8 +69,8 @@ export const navigationItems: NavigationItem[] = [
 
 // About Menu Data
 export const aboutMenuItems: MegaMenuItem[] = [
-  { id: 'our-story', label: 'Our Story', href: 'about-01' },
-  { id: 'our-team', label: 'Our Team', href: 'our-team-01' },
+  { id: 'our-story', label: 'Our Story', href: '/about-01' },
+  { id: 'our-team', label: 'Our Team', href: '/our-team-01' },
   { id: 'careers', label: 'Careers', href: '/career' },
 ];
 
