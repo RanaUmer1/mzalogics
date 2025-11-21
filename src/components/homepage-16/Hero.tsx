@@ -20,13 +20,12 @@ const Hero = () => {
           <div className="max-w-[1075px] mb-14 space-y-4 w-full mx-auto text-center">
             <RevealAnimation delay={0.2}>
               <h1>
-                Build <span className="text-primary-500">powerful apps</span> without writing a single line of code
+                Transform Your Business with <span className="text-primary-500">iOS App Development</span>
               </h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="max-w-[650px] mx-auto">
-                Whether you&apos;re launching a new startup, digitizing internal workflows, or building an MVP, App
-                Builder gives you all the tools you need—no developers required.
+                Create stunning, high-performance iOS applications that deliver exceptional user experiences and drive business growth with our expert development team.
               </p>
             </RevealAnimation>
           </div>
@@ -34,20 +33,20 @@ const Hero = () => {
             <RevealAnimation delay={0.4}>
               <li className="w-full sm:w-auto">
                 <LinkButton
-                  href="/login-01"
+                  href="/contact-us"
                   className="btn btn-xl btn-secondary dark:btn-accent hover:btn-white w-[90%] md:w-auto dark:hover:btn-white-dark"
-                  aria-label="Start building free">
-                  Start building free
+                  aria-label="Get a free quote">
+                  Get a Free Quote
                 </LinkButton>
               </li>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
               <li className="w-full sm:w-auto">
                 <LinkButton
-                  href="/homepage-02"
+                  href="/portfolio"
                   className="btn btn-xl dark:btn-white-dark hover:btn-secondary btn-white dark:hover:btn-accent w-[90%] md:w-auto"
-                  aria-label="Watch demo video">
-                  <span>Watch demo video</span>
+                  aria-label="View our work">
+                  <span>View Our Work</span>
                 </LinkButton>
               </li>
             </RevealAnimation>

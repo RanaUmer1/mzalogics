@@ -42,7 +42,9 @@ const ServicesMenu: FC<ServicesMenuProps> = ({ className }) => {
           <div className="space-y-2">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Our Services</h3>
             <ul className="space-y-1">
-              {servicesMenuItems.map((item) => (
+              {servicesMenuItems
+                .filter(item => !item.parentId) // Only show items without a parentId
+                .map((item) => (
                 <li 
                   key={item.id}
                   className="relative"

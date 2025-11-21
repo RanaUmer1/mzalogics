@@ -1,5 +1,6 @@
 'use client';
 
+import { servicesMenuItems } from '@/data/header';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -9,16 +10,13 @@ interface MobileAppMenuProps {
   className?: string;
 }
 
-const mobileAppItems = [
-  { id: 'ios-dev', label: 'iOS App Development', href: '/services/ios-app-development' },
-  { id: 'android-dev', label: 'Android App Development', href: '/services/android-app-development' },
-  { id: 'cross-platform', label: 'Cross-Platform Solutions', href: '/services/cross-platform-mobile' },
-  { id: 'mobile-ui-ux', label: 'UI/UX Design for Mobile', href: '/services/mobile-ui-ux-design' },
-  { id: 'app-maintenance', label: 'App Maintenance', href: '/services/app-maintenance' },
-];
-
 const MobileAppMenu: FC<MobileAppMenuProps> = ({ className }) => {
   const pathname = usePathname();
+  
+  // Filter mobile app related services (items with parentId = 'mobile-app-dev')
+  const mobileAppItems = servicesMenuItems.filter(
+    item => item.parentId === 'mobile-app-dev' || item.id === 'mobile-app-dev'
+  );
 
   return (
     <div className={cn('pl-4 border-l-2 border-gray-100 dark:border-gray-800 ml-2', className)}>
@@ -30,7 +28,7 @@ const MobileAppMenu: FC<MobileAppMenuProps> = ({ className }) => {
               href={item.href}
               className={cn(
                 'block text-sm transition-colors hover:text-primary',
-                pathname === item.href ? 'text-primary font-medium' : 'text-gray-600 dark:text-gray-300'
+                pathname === item.href || pathname.startsWith(item.href + '/') ? 'text-primary font-medium' : 'text-gray-600 dark:text-gray-300'
               )}
             >
               {item.label}

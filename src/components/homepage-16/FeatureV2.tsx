@@ -12,19 +12,19 @@ import RevealAnimation from '../animation/RevealAnimation';
 const featureList = [
   {
     icon: 'ns-shape-8',
-    text: 'No coding or technical skills required',
+    text: 'Expert iOS developers with 10+ years of experience',
   },
   {
     icon: 'ns-shape-9',
-    text: 'Intuitive interface built for speed',
+    text: '100% Swift and SwiftUI development',
   },
   {
     icon: 'ns-shape-12',
-    text: 'Affordable plans for every stage',
+    text: 'App Store submission and approval support',
   },
   {
     icon: 'ns-shape-21',
-    text: 'Built-in hosting and app publishing',
+    text: 'Ongoing maintenance and updates',
   },
 ];
 
@@ -67,12 +67,12 @@ const FeatureV2 = () => {
             <div className="space-y-8">
               <div className="space-y-5">
                 <RevealAnimation delay={0.2}>
-                  <span className="badge badge-green">Reasons to select us</span>
+                  <span className="badge badge-green">Why Choose Us</span>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <div className="space-y-3">
                     <h2>
-                      Why <span className="text-primary-500">thousands trust </span> us to build their apps
+                      Why <span className="text-primary-500">businesses choose </span> our iOS development expertise
                     </h2>
                   </div>
                 </RevealAnimation>

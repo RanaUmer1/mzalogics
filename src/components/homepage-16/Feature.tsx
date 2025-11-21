@@ -12,26 +12,26 @@ import LinkButton from '../ui/button/LinkButton';
 
 const featureItems = [
   {
-    title: 'Drag & drop builder',
-    description: 'Build apps visually—no coding required',
+    title: 'Custom iOS Development',
+    description: 'Tailor-made iOS applications designed specifically for your business needs',
     image: feature1,
     imageDark: feature1Dark,
   },
   {
-    title: 'Real-time preview',
-    description: 'See your app in action as you create it',
+    title: 'UI/UX Design',
+    description: 'Beautiful, intuitive interfaces that follow Apple’s Human Interface Guidelines',
     image: feature2,
     imageDark: feature2Dark,
   },
   {
-    title: 'Custom workflows & automation',
-    description: 'Create conditional logic, form flows, and integrations',
+    title: 'Native iOS Features',
+    description: 'Leverage the full power of iOS with features like ARKit, CoreML, and more',
     image: feature3,
     imageDark: feature3Dark,
   },
   {
-    title: 'Secure data management',
-    description: 'Connect to google sheets, airtable, or your own database',
+    title: 'App Store Optimization',
+    description: 'Expert guidance to help your app rank higher in the App Store',
     image: feature4,
     imageDark: feature4Dark,
   },
@@ -46,7 +46,7 @@ const Feature = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <h2>
-              Everything you need to <span className="text-primary-500">build &amp; launch smarter</span>
+              Comprehensive <span className="text-primary-500">iOS Development Services</span>
             </h2>
           </RevealAnimation>
         </div>
@@ -79,9 +79,9 @@ const Feature = () => {
         <RevealAnimation delay={0.8}>
           <div className="flex items-center justify-center">
             <LinkButton
-              href="/features-01"
+              href="/contact-us"
               className="btn btn-lg md:btn-xl btn-secondary hover:btn-white dark:hover:btn-accent dark:btn-transparent w-[85%] md:w-auto">
-              Start building free
+Start Your iOS Project
             </LinkButton>
           </div>
         </RevealAnimation>

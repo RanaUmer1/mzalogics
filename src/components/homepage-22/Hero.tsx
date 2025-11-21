@@ -8,15 +8,15 @@ import LinkButton from '../ui/button/LinkButton';
 const heroList = [
   {
     id: 1,
-    title: 'Free installation',
+    title: 'Native Android Development',
   },
   {
     id: 2,
-    title: 'App version 3.9',
+    title: 'Kotlin & Java Experts',
   },
   {
     id: 3,
-    title: '4.4 rated by 1,300,000+ customers',
+    title: '4.8/5 rated by 500+ clients',
   },
 ];
 
@@ -27,12 +27,11 @@ const Hero = () => {
         <div className="text-center md:space-y-14 space-y-8">
           <div className="space-y-4 relative z-20">
             <RevealAnimation delay={0.1}>
-              <h1 className="text-center max-w-[700px] mx-auto">Mobile device management software</h1>
+              <h1 className="text-center max-w-[700px] mx-auto">Expert <span className="text-primary-500">Android App</span> Development</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="lg:max-w-[818px] md:max-w-[618px] sm:max-w-[518px] max-w-[450px] w-full mx-auto">
-                NextSaaS empowers organizations to manage their mobile fleet with confidence. From security policies to
-                remote configurations—manage every device without touching it.
+                Transform your business with custom Android applications built for performance, security, and scalability. Our expert developers create seamless mobile experiences that drive engagement and growth.
               </p>
             </RevealAnimation>
             <ul className="flex items-center lg:gap-9 sm:gap-6 gap-4 justify-center flex-wrap">
@@ -52,20 +51,20 @@ const Hero = () => {
             <RevealAnimation delay={0.6} direction="left" offset={50}>
               <li className="w-full sm:w-auto">
                 <LinkButton
-                  href="/case-study"
+                  href="/portfolio"
                   className="btn btn-primary btn-md md:btn-xl hover:btn-secondary dark:hover:btn-accent md:w-auto w-[90%]"
-                  aria-label="Get started with NextSaaS">
-                  Take a product tour
+                  aria-label="View our work">
+                  View Our Work
                 </LinkButton>
               </li>
             </RevealAnimation>
             <RevealAnimation delay={0.8} direction="left" offset={50}>
               <li className="w-full sm:w-auto">
                 <LinkButton
-                  href="/contact-us"
+                  href="/contact"
                   className="btn btn-secondary btn-md md:btn-xl hover:btn-primary dark:btn-accent md:w-auto w-[90%]"
-                  aria-label="Get started with NextSaaS">
-                  Start free trial
+                  aria-label="Get a free quote">
+                  Get Free Consultation
                 </LinkButton>
               </li>
             </RevealAnimation>

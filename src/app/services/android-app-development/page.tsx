@@ -13,7 +13,8 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Mobile Management Software - NextSaaS',
+  title: 'Android App Development Services | MZA Logics',
+  description: 'Expert Android app development services to build high-performance, scalable, and secure mobile applications for your business. Native Android development with Kotlin and Java.'
 };
 
 const Homepage22 = () => {

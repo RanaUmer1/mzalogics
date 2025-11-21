@@ -16,20 +16,20 @@ const Hero = () => {
         <div className="2xl:pl-[320px] lp:pl-[150px] xl:pl-[120px] lg:pl-[80px] xl:space-y-14 lg:space-y-10 space-y-8">
           <div className="space-y-5 lg:text-left text-center">
             <RevealAnimation delay={0.2}>
-              <span className="badge badge-cyan">Turn clicks into customers</span>
+              <span className="badge badge-cyan">Build Once, Deploy Everywhere</span>
             </RevealAnimation>
             <div className="space-y-4">
               <RevealAnimation delay={0.3}>
                 <h1 className="lg:max-w-[645px] md:max-w-[500px] max-sm:mx-5 md:mx-0 mx-auto">
-                  Automate how you collect and
+                  Build powerful apps for
                   <br />
-                  <span className="text-primary-500">qualify leads</span>
+                  <span className="text-primary-500">all platforms</span> with one codebase
                 </h1>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="lg:max-w-[595px] sm:max-w-[400px] max-w-[350px] lg:mx-0 mx-auto">
-                  Collect leads from multiple channels—websites, ads, social media, events, calls, and more—without
-                  missing a single opportunity.
+                  Our cross-platform solutions deliver native performance across iOS, Android, and web platforms while
+                  reducing development time and costs by up to 60%.
                 </p>
               </RevealAnimation>
             </div>
@@ -71,17 +71,17 @@ const Hero = () => {
             </div>
             <RevealAnimation delay={0.6}>
               <div>
-                <p className="text-tagline-2 font-medium text-secondary dark:text-accent">Trusted by 20k+</p>
-                <p className="text-tagline-3">Customers Across the globe</p>
+                <p className="text-tagline-2 font-medium text-secondary dark:text-accent">Trusted by 100+</p>
+                <p className="text-tagline-3">Businesses Worldwide</p>
               </div>
             </RevealAnimation>
           </div>
           <RevealAnimation delay={0.7} instant direction="right">
             <div className="lg:text-left text-center">
               <LinkButton
-                href="/login-01"
+                href="/contact"
                 className="btn hover:btn-primary dark:btn-accent btn-lg sm:btn-xl btn-secondary w-[90%] sm:w-auto">
-                Book a demo
+                Get Free Consultation
               </LinkButton>
             </div>
           </RevealAnimation>

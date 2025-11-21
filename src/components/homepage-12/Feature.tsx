@@ -11,19 +11,19 @@ const Feature = () => {
       <div className="main-container">
         <div className="space-y-5 text-center mb-10 md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-cyan">Turn clicks into customers</span>
+            <span className="badge badge-cyan">Cross-Platform Solutions</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
               <h2>
-                Data-driven insights that
-                <span className="text-primary-500"> fuel growth</span>
+                One Codebase,
+                <span className="text-primary-500"> Multiple Platforms</span>
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p>
-                Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text nothing Before &amp;
-                After magazine.
+                Build for iOS, Android, and web simultaneously with our cutting-edge cross-platform development
+                solutions. Save time and resources without compromising on quality or performance.
               </p>
             </RevealAnimation>
           </div>
@@ -34,7 +34,7 @@ const Feature = () => {
               <div className="col-span-12 xl:col-span-6">
                 <div className="bg-secondary dark:bg-background-8 md:p-[42px] sm:p-8 p-6 rounded-[20px]">
                   <div className="flex items-center justify-between mb-[53px]">
-                    <p className="text-lg font-semibold text-white leading-[27px]">User activity</p>
+                    <p className="text-lg font-semibold text-white leading-[27px]">Platform Coverage</p>
                     <div>
                       <svg xmlns="http://www.w3.org/2000/svg" width={6} height={30} viewBox="0 0 6 30" fill="none">
                         <path
@@ -74,11 +74,11 @@ const Feature = () => {
                     <Image src={aboutBg} alt=" about bg" className="w-full h-full object-cover" />
                   </div>
                   <div className="space-y-8 col-span-12 xl:col-span-6">
-                    <p className="text-heading-5 text-accent">Custom reports forinformed decision-making</p>
+                    <p className="text-heading-5 text-accent">Seamless Integration Across All Devices</p>
                     <LinkButton
-                      href="/login-01"
+                      href="/contact"
                       className="btn btn-white btn-md dark:btn-transparent hover:btn-primary w-[90%] md:w-auto mx-auto md:mx-0">
-                      Get started
+                      Start Your Project
                     </LinkButton>
                   </div>
                   <div className="col-span-12 xl:col-span-6">

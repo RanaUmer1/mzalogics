@@ -15,8 +15,8 @@ import gradient36 from '@public/images/gradient/gradient-36.png';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Web Hosting - NextSaaS',
-  description: 'Web Hosting of NextSaaS',
+  title: 'Laravel Development Services | MZA Logics',
+  description: 'Expert Laravel development services to build robust, scalable, and secure web applications. Custom Laravel solutions for your business needs.',
 };
 
 const HomePage04 = () => {

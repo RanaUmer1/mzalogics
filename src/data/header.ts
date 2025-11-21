@@ -11,7 +11,8 @@ export interface MegaMenuItem {
   label: string;
   href: string;
   newPage?: boolean;
-  hasSubmenu?: boolean;  // Add this line
+  hasSubmenu?: boolean;
+  parentId?: string;  // For hierarchical menu items
 }
 
 export interface MegaMenuColumn {
@@ -36,15 +37,8 @@ export const navigationItems: NavigationItem[] = [
   {
     id: 'case-studies',
     label: 'Case Studies',
-    href: '/case-studies',
+    href: '/case-study',
     hasDropdown: false,
-  },
-  {
-    id: 'industries',
-    label: 'Industries',
-    href: '#',
-    hasDropdown: true,
-    megaMenuComponent: 'IndustriesMenu',
   },
   {
     id: 'about',
@@ -56,7 +50,7 @@ export const navigationItems: NavigationItem[] = [
   {
     id: 'blog',
     label: 'Blog',
-    href: '/blog',
+    href: '/blog-03',
     hasDropdown: false,
   },
   {
@@ -75,9 +69,9 @@ export const navigationItems: NavigationItem[] = [
 
 // About Menu Data
 export const aboutMenuItems: MegaMenuItem[] = [
-  { id: 'our-story', label: 'Our Story', href: '/about/our-story' },
-  { id: 'our-team', label: 'Our Team', href: '/about/our-team' },
-  { id: 'careers', label: 'Careers', href: '/careers' },
+  { id: 'our-story', label: 'Our Story', href: 'about-01' },
+  { id: 'our-team', label: 'Our Team', href: 'our-team-01' },
+  { id: 'careers', label: 'Careers', href: '/career' },
 ];
 
 // Blog Menu Data
@@ -90,17 +84,56 @@ export const blogMenuItems: MegaMenuItem[] = [
 
 // Services Menu Data
 export const servicesMenuItems: MegaMenuItem[] = [
-  { id: 'mobile-app-dev', label: 'Mobile App Development', href: '/services/mobile-app-development' },
-  { id: 'web-dev', label: 'Web Development', href: '/services/web-development' },
-  { id: 'ui-ux-design', label: 'UI/UX Design', href: '/services/ui-ux-design' },
+  { 
+    id: 'mobile-app-dev', 
+    label: 'Mobile App Development', 
+    href: '#',
+    hasSubmenu: true
+  },
+  { 
+    id: 'ios-app-dev', 
+    label: 'iOS App Development', 
+    href: '/services/ios-app-development',
+    parentId: 'mobile-app-dev'
+  },
+  { 
+    id: 'android-app-dev', 
+    label: 'Android App Development', 
+    href: '/services/android-app-development',
+    parentId: 'mobile-app-dev'
+  },
+  { 
+    id: 'cross-platform-dev', 
+    label: 'Cross-Platform Development', 
+    href: '/services/cross-platform-development',
+    parentId: 'mobile-app-dev'
+  },
+  { 
+    id: 'web-dev', 
+    label: 'Web Development', 
+    href: '/services/web-development' 
+  },
+  { 
+    id: 'ui-ux-design', 
+    label: 'UI/UX Design', 
+    href: '/services/ui-ux-design' 
+  },
   { 
     id: 'qa', 
     label: 'Quality Assurance', 
     href: '/services/quality-assurance',
     hasSubmenu: true
   },
-  { id: 'digital-marketing', label: 'Digital Marketing', href: '/services/digital-marketing' },
-  { id: 'cloud-devops', label: 'Cloud & DevOps', href: '/services/cloud-devops' },
+  { 
+    id: 'digital-marketing', 
+    label: 'Digital Marketing', 
+    href: '/services/digital-marketing' 
+  },
+  { 
+    id: 'cloud-devops', 
+    label: 'Cloud & DevOps', 
+    href: '/services/cloud-devops' 
+  },
   { 
     id: 'maintenance-support', 
     label: 'Maintenance & Support', 
