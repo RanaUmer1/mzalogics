@@ -21,19 +21,19 @@ const Hero = () => {
       <HeroShapes />
       <div className="main-container relative z-30 text-center">
         <RevealAnimation delay={0.1}>
-          <span className="badge badge-green-v2 mb-5">Chatbot</span>
+          <span className="badge badge-green-v2 mb-5">Python Development</span>
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
           <h1 className="mb-4 font-medium">
-            Automate your <span className="text-primary-500">chats </span>
+            Build production-ready <span className="text-primary-500">Python</span>
             <br className="hidden md:block" />
-            effortlessly
+            applications faster
           </h1>
         </RevealAnimation>
         <RevealAnimation delay={0.3}>
           <p className="mx-auto mb-10 max-w-[588px] md:mb-14">
-            Discover the next level of customer engagement with our intuitive AI-driven solution today. Experience
-            seamless interactions
+            From REST APIs and automation scripts to data-heavy backends, we design, build, and maintain robust Python
+            solutions tailored to your product.
           </p>
         </RevealAnimation>
         <RevealAnimation delay={0.4}>

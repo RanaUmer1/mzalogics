@@ -15,7 +15,8 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Agency - NextSaaS',
+  title: 'Wireframing Services - MzaLogics',
+  description: 'Fast, collaborative wireframing for web apps and products to clarify flows and structure before visual design.',
 };
 
 const Homepage18 = () => {

@@ -10,11 +10,12 @@ const CTA = () => {
             <span className="badge badge-blur mb-5 text-ns-yellow">Get started</span>
           </RevealAnimation>
           <RevealAnimation>
-            <h2 className="mb-3 text-white">Let’s build a smarter tomorrow.</h2>
+            <h2 className="mb-3 text-white">Let&apos;s wireframe your next product move.</h2>
           </RevealAnimation>
           <RevealAnimation>
             <p className="mb-6 text-white/60">
-              Start your aI journey with NextSaaS and transform the way you work—forever.
+              Bring your product ideas, and we&apos;ll turn them into clear, actionable wireframes your whole team can get
+              behind.
             </p>
           </RevealAnimation>
           <RevealAnimation>

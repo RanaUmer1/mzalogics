@@ -30,15 +30,15 @@ interface AvatarUser {
 const ctaButtons: CTAButton[] = [
   {
     id: 1,
-    text: 'Start for free',
-    href: '/pricing-01',
+    text: 'Book a prototyping call',
+    href: '/contact-us',
     variant: 'primary',
     delay: 0.3,
   },
   {
     id: 2,
-    text: 'Explore the platform',
-    href: '/our-services-01',
+    text: 'View prototyping work',
+    href: '/projects',
     variant: 'secondary',
     delay: 0.4,
   },
@@ -79,15 +79,15 @@ const Hero = () => {
             <RevealAnimation delay={0.1}>
               <h1 className="md:max-w-[804px] sm:max-w-[600px] max-w-[400px] mx-auto">
                 <span className="hero-text-gradient hero-text-color-1 block">
-                  Secure, scalable, 100% decentralized.
+                  Prototype your product before you write a line of code.
                 </span>
               </h1>
             </RevealAnimation>
 
             <RevealAnimation delay={0.2}>
               <p className="md:max-w-full sm:max-w-[560px] max-w-[390px] mx-auto">
-                NextSaaS brings you borderless, trustless finance—powered by DeFi. Access global tools with zero
-                middlemen and full control.
+                Turn rough ideas into clickable prototypes, validate user flows, and align your team on what to build
+                next—without committing to full development.
               </p>
             </RevealAnimation>
           </div>
@@ -136,8 +136,8 @@ const Hero = () => {
 
               <RevealAnimation delay={0.9} direction="right" offset={50}>
                 <div className="text-center sm:text-left">
-                  <p className="text-tagline-2 font-medium text-secondary dark:text-accent">Join 36,000+</p>
-                  <p className="text-tagline-3">Use NextSaaS for smarter decisions.</p>
+                  <p className="text-tagline-2 font-medium text-secondary dark:text-accent">Teams we prototype with</p>
+                  <p className="text-tagline-3">From early-stage startups to growing product orgs.</p>
                 </div>
               </RevealAnimation>
             </div>

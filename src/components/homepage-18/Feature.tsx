@@ -19,12 +19,12 @@ const Feature = () => {
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">Automation that fits your needs.</h2>
+              <h2 className="mb-3">Wireframes that keep everyone on the same page.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="text-secondary/60 dark:text-accent/60 max-w-[600px] mx-auto">
-                Powerful tools to streamline operations and boost efficiency. Automate tasks with NextSaaS and focus on
-                what matters.
+                Quickly explore structure and flows, gather feedback, and make smart product decisions before investing
+                in visuals and engineering.
               </p>
             </RevealAnimation>
           </div>
@@ -34,10 +34,9 @@ const Feature = () => {
           <RevealAnimation delay={0.5}>
             <div className="col-span-12 md:col-span-6 lg:col-span-8 p-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6">
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Smart analytics with real-time insights.</h5>
+                <h5 className="max-sm:text-heading-6">Clarify complex flows.</h5>
                 <p className="max-w-[450px]">
-                  Stay in the loop and make better choices with awesome, built-in analytics that give you real-time
-                  insights.
+                  Turn multi-step journeys into simple diagrams and wireframes that everyone can understand.
                 </p>
               </div>
               <figure className="w-full">
@@ -57,8 +56,8 @@ const Feature = () => {
           <RevealAnimation delay={0.6}>
             <div className="col-span-12 md:col-span-6 lg:col-span-4 p-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6">
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Seamless system integrations.</h5>
-                <p className="max-w-[220px]">Want it even shorter? Here’s a super chill version!</p>
+                <h5 className="max-sm:text-heading-6">Collaborate faster.</h5>
+                <p className="max-w-[220px]">Use lightweight wireframes as a shared language between teams.</p>
               </div>
               <figure className="w-full">
                 <Image
@@ -77,8 +76,8 @@ const Feature = () => {
           <RevealAnimation delay={0.7}>
             <div className="col-span-12 md:col-span-6 lg:col-span-4 p-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6">
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Clear dashboards for visibility.</h5>
-                <p className="">Track everything at a glance with clean, easy-to-use dashboards.</p>
+                <h5 className="max-sm:text-heading-6">Test ideas safely.</h5>
+                <p className="">Gather feedback on concepts early without the cost of redesigning built features.</p>
               </div>
               <figure className="w-full">
                 <Image
@@ -97,9 +96,9 @@ const Feature = () => {
           <RevealAnimation delay={0.8}>
             <div className="col-span-12 md:col-span-6 lg:col-span-8 p-8 rounded-[20px] bg-background-3 dark:bg-background-7 space-y-6">
               <div className="space-y-2 max-w-[285px]">
-                <h5 className="max-sm:text-heading-6">Durable, secure platforms.</h5>
+                <h5 className="max-sm:text-heading-6">Move faster with less risk.</h5>
                 <p className="max-w-[311px]">
-                  Grow with confidence on a platform that&apos;s secure, stable, and built for the future.
+                  Iterate in wireframes first so development work is focused, aligned, and less likely to be reworked.
                 </p>
               </div>
               <figure className="w-full">

@@ -11,11 +11,12 @@ const Services = () => {
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">AI services that deliver real results.</h2>
+              <h2 className="mb-3">Wireframing services that clarify your product.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="max-w-[600px] mx-auto">
-                From consulting to implementation, our solutions are built to transform the way you work.
+                From high-level UX flows to detailed screen layouts, we help you structure products so everyone knows
+                what you&apos;re building before design and development.
               </p>
             </RevealAnimation>
           </div>
@@ -28,11 +29,8 @@ const Services = () => {
                 <span className="ns-shape-8 text-[52px] text-secondary dark:text-accent" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Real-time data analytics and visualization.</h5>
-                <p className="max-w-[430px]">
-                  Speed up your journey with real-time data analytics to bring your ideas to life and make informed
-                  decisions.
-                </p>
+                <h5 className="max-sm:text-heading-6">User journeys &amp; sitemap wireframes.</h5>
+                <p className="max-w-[430px]">Define the core flows and information architecture for your product.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -42,8 +40,8 @@ const Services = () => {
                 <span className="ns-shape-35 text-[52px] text-secondary dark:text-accent" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">AI-powered apps.</h5>
-                <p>Use AI applications to boost workflow automation and improve efficiency.</p>
+                <h5 className="max-sm:text-heading-6">Low- and mid-fidelity screen wireframes.</h5>
+                <p>Create quick, flexible screen layouts you can iterate with your team.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -53,10 +51,8 @@ const Services = () => {
                 <span className="ns-shape-41 text-[52px] text-secondary dark:text-accent" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">End-to-end AI consulting.</h5>
-                <p className="max-w-[430px]">
-                  Discover your business&apos;s potential with our AI consulting services.
-                </p>
+                <h5 className="max-sm:text-heading-6">Click-through prototypes.</h5>
+                <p className="max-w-[430px]">Link wireframes together so stakeholders can experience the flow.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -66,9 +62,9 @@ const Services = () => {
                 <span className="ns-shape-19 text-[52px] text-secondary dark:text-accent" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Machine learning model development.</h5>
+                <h5 className="max-sm:text-heading-6">Workshop &amp; collaboration sessions.</h5>
                 <p className="max-w-[430px]">
-                  Quickly develop tools, platforms, and educational applications for machine learning model creation.
+                  Run live working sessions to co-create and refine wireframes with your team.
                 </p>
               </div>
             </div>

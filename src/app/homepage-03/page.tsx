@@ -13,8 +13,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Chatbot - NextSaaS',
-  description: 'Homepage Three of NextSaaS',
+  title: 'Python Development Services - MzaLogics',
+  description: 'Homepage for our custom Python development, APIs, automation, and data solutions.',
 };
 
 const HomePage03 = () => {
@@ -34,10 +34,10 @@ const HomePage03 = () => {
         <Testimonial badgeText="Reviews" />
         <CTAV2
           className="bg-background-2 dark:bg-background-5"
-          ctaHeading=" Experience a free trial today and watch your"
-          spanText="business grow."
-          ctaDescription="Sign up today to enhance your customer support with our tools and solutions."
-          ctaBtnText="Get started"
+          ctaHeading=" Start your next Python project with"
+          spanText="senior engineers."
+          ctaDescription="Book a free consultation to discuss APIs, automation, data pipelines, or full-stack apps built in Python."
+          ctaBtnText="Book a free call"
           ctaCheckListData={[
             {
               id: '1',

@@ -23,18 +23,18 @@ const Hero = () => {
       <div className="main-container relative z-10">
         <div className="flex flex-col items-center justify-center mb-12 md:mb-[72px]">
           <RevealAnimation delay={0.1}>
-            <span className="opacity-0 badge badge-green">Keep an eye on your finances</span>
+            <span className="opacity-0 badge badge-green">Modern CMS development</span>
           </RevealAnimation>
 
           <div className="max-w-6xl mt-5 mb-10 md:mb-14 space-y-4 w-full mx-auto text-center">
             <RevealAnimation delay={0.2}>
-              <h1 className="opacity-0">Transform your email marketing with AI-powered precision</h1>
+              <h1 className="opacity-0">Build a CMS that fits your content, not the other way around</h1>
             </RevealAnimation>
 
             <RevealAnimation delay={0.3}>
               <p className="opacity-0 max-w-[652px] mx-auto">
-                Supercharge your email marketing and transactional emails with AI-driven automation, unmatched
-                deliverability, and real-time analytics.
+                We design and implement custom and headless CMS solutions so your teams can create, manage, and publish
+                content across all your channels—without fighting the tooling.
               </p>
             </RevealAnimation>
           </div>
@@ -43,20 +43,20 @@ const Hero = () => {
             <RevealAnimation delay={0.3} direction="left" offset={50}>
               <li className="max-md:w-[90%] md:w-auto max-md: mx-auto">
                 <LinkButton
-                  href="/login-01"
+                  href="/contact-us"
                   className="btn btn-lg md:btn-xl hover:btn-secondary dark:hover:btn-white btn-primary w-full md:w-auto"
-                  aria-label="Get started for free">
-                  Get started for free
+                  aria-label="Discuss your CMS project">
+                  Discuss your CMS project
                 </LinkButton>
               </li>
             </RevealAnimation>
             <RevealAnimation delay={0.5} direction="left" offset={50}>
               <li className="max-md:w-[90%] max-md:mx-auto md:w-auto">
                 <LinkButton
-                  href="/features-01"
+                  href="/our-services-01"
                   className="btn btn-lg md:btn-xl hover:btn-primary btn-white dark:btn-white-dark w-full md:w-auto"
-                  aria-label="Explore features">
-                  Explore features
+                  aria-label="View CMS development services">
+                  View CMS services
                 </LinkButton>
               </li>
             </RevealAnimation>

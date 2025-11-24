@@ -18,9 +18,9 @@ const features = [
     id: 1,
     light: featureAsset1,
     dark: featureAssetDark1,
-    alt: 'Transactional email API UI',
-    title: 'Drag & drop email builder',
-    description: 'Design emails effortlessly, no coding needed.',
+    alt: 'CMS content model interface',
+    title: 'Custom content models',
+    description: 'Define fields, relationships, and structures that mirror your real content.',
 
     className: 'col-span-12 sm:col-span-6 lg:col-span-4',
   },
@@ -28,9 +28,9 @@ const features = [
     id: 2,
     light: featureAsset2,
     dark: featureAssetDark2,
-    alt: 'Transactional email API UI',
-    title: 'Transactional email API',
-    description: 'Send real-time order confirmations, password resets',
+    alt: 'Headless CMS API interface',
+    title: 'Headless CMS APIs',
+    description: 'Expose content via clean APIs to web, mobile, and any other channel.',
 
     className: 'col-span-12 sm:col-span-6 lg:col-span-4',
   },
@@ -38,9 +38,9 @@ const features = [
     id: 3,
     light: featureAsset3,
     dark: featureAssetDark3,
-    alt: 'Transaction statistics',
-    title: 'SMTP relay & webhooks',
-    description: 'Seamless email infrastructure for developers.',
+    alt: 'Publishing workflow overview',
+    title: 'Workflows & permissions',
+    description: 'Set up roles, review steps, and approvals that match your organization.',
 
     className: 'col-span-12 sm:col-span-6 lg:col-span-4',
   },
@@ -48,9 +48,9 @@ const features = [
     id: 4,
     light: featureAsset4,
     dark: featureAssetDark4,
-    alt: 'A/B testing stats',
-    title: 'Advanced A/B testing',
-    description: 'Optimize subject lines, content, and send times.',
+    alt: 'Localization interface',
+    title: 'Localization & versions',
+    description: 'Support multiple locales, drafts, and version history with confidence.',
 
     className: 'lg:col-start-3 col-span-12 sm:col-span-6 lg:col-span-4',
   },
@@ -58,9 +58,9 @@ const features = [
     id: 5,
     light: featureAsset5,
     dark: featureAssetDark5,
-    alt: 'Transactional email API UI',
-    title: 'Deliverability management',
-    description: 'Dedicated IPs, SPF, DKIM, and DMARC authentication.',
+    alt: 'Security and access controls',
+    title: 'Security & compliance',
+    description: 'Hardened access controls, audit logs, and deployment best practices.',
 
     className: 'col-span-12 sm:col-span-6 lg:col-span-4',
   },
@@ -71,10 +71,10 @@ const Features = () => {
       <div className="main-container">
         <div className="text-center mb-12 md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green mb-3.5 md:mb-5">More features</span>
+            <span className="badge badge-green mb-3.5 md:mb-5">CMS features</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2>Features that set NextSaaS apart</h2>
+            <h2>Everything you need in a modern CMS</h2>
           </RevealAnimation>
         </div>
         <div className="grid grid-cols-12 items-center gap-y-12 sm:gap-x-8">

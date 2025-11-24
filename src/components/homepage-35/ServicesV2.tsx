@@ -28,8 +28,8 @@ interface ServiceV2 {
 const servicesV2: ServiceV2[] = [
   {
     id: 1,
-    title: 'Decentralized asset management',
-    description: 'Invest, swap, stake, and track—all without giving up control of your funds.',
+    title: 'User flows & low-fidelity prototypes',
+    description: 'Map journeys and screens quickly so you can see the product end-to-end before polishing visuals.',
     image: {
       light: service1,
       dark: service1Dark,
@@ -40,8 +40,8 @@ const servicesV2: ServiceV2[] = [
   },
   {
     id: 2,
-    title: 'Customizable smart wallets',
-    description: 'Multi-signature. hardware compatible. fully self-custodied.',
+    title: 'High-fidelity UI prototypes',
+    description: 'Interactive Figma prototypes that look and feel close to the final product.',
     image: {
       light: service2,
       dark: service2Dark,
@@ -51,8 +51,8 @@ const servicesV2: ServiceV2[] = [
   },
   {
     id: 3,
-    title: 'On-chain yield opportunities',
-    description: 'Access staking, lending, and liquidity farming from a single dashboard.',
+    title: 'Multi-state & edge-case explorations',
+    description: 'Prototype empty states, errors, and edge cases so nothing is left undefined for engineers.',
     image: {
       light: service3,
       dark: service3Dark,
@@ -62,8 +62,8 @@ const servicesV2: ServiceV2[] = [
   },
   {
     id: 4,
-    title: 'Advanced portfolio analytics',
-    description: 'Multi-signature. hardware compatible. fully self-custodied.',
+    title: 'Design systems for prototypes',
+    description: 'Reusable components and styles that keep your prototypes consistent and easy to iterate.',
     image: {
       light: service4,
       dark: service4Dark,
@@ -73,8 +73,8 @@ const servicesV2: ServiceV2[] = [
   },
   {
     id: 5,
-    title: 'End-to-end security',
-    description: 'Military-grade encryption + blockchain-level immutability = unmatched safety.',
+    title: 'Prototype testing & iterations',
+    description: 'Gather feedback from users and stakeholders, then refine flows in rapid cycles.',
     image: {
       light: service5,
       dark: service5Dark,
@@ -91,11 +91,11 @@ const ServicesV2 = () => {
         {/* Header Section */}
         <div className="text-center space-y-3 mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <h2>Powerful tools for next-gen finance</h2>
+            <h2>Prototyping services to de-risk your roadmap</h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
-            <p>Everything you need to manage, grow, and protect your digital assets—on your terms</p>
+            <p>Everything you need to visualize, test, and refine product ideas before they reach your engineering team.</p>
           </RevealAnimation>
         </div>
         {/* Services Grid */}

@@ -15,20 +15,20 @@ const services: Service[] = [
   {
     id: 1,
     icon: 'ns-shape-3',
-    title: 'Trustless by design',
-    description: 'No banks, no brokers. your assets are secured by smart contracts, not gatekeepers.',
+    title: 'Validate ideas faster',
+    description: 'Go from concept to clickable prototype quickly so you can test with users and stakeholders.',
   },
   {
     id: 2,
     icon: 'ns-shape-35',
-    title: 'Built on proven tech',
-    description: 'Audited protocols, hardened smart contracts, and years of real-world uptime.',
+    title: 'De-risk development',
+    description: 'Catch UX issues, edge cases, and misalignment early—before engineering invests weeks of work.',
   },
   {
     id: 3,
     icon: 'ns-shape-46',
-    title: 'Globally borderless',
-    description: 'No more limitations NextSaaS works wherever you are, whenever you need it.',
+    title: 'Align your team',
+    description: 'Use realistic flows and screens to get product, design, and engineering on the same page.',
   },
 ];
 
@@ -40,14 +40,14 @@ const Services = () => {
         <div className="text-center space-y-3 mb-[70px]">
           <RevealAnimation delay={0.1}>
             <h2 className="md:max-w-[828px] sm:max-w-[600px] max-[375px]:max-w-[270px] mx-auto">
-              Why NextSaaS is the smarter way to manage your digital assets.
+              Why prototyping is the smarter way to shape your product.
             </h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
             <p className="md:max-w-[606px] sm:max-w-[400px] max-w-[390px] mx-auto">
-              NextSaaS offers a smarter approach to managing your digital assets by providing intuitive tools and expert
-              guidance tailored to your needs.
+              Use prototypes to explore ideas, validate assumptions, and make confident product decisions before you
+              invest in full builds.
             </p>
           </RevealAnimation>
         </div>
@@ -79,9 +79,9 @@ const Services = () => {
         <div className="flex items-center justify-center">
           <RevealAnimation delay={0.6}>
             <LinkButton
-              href="/our-services-02"
+              href="/contact-us"
               className="btn hover:btn-secondary dark:hover:btn-accent btn-primary btn-md">
-              <span>Explore the platform</span>
+              <span>Talk about prototyping</span>
             </LinkButton>
           </RevealAnimation>
         </div>

@@ -32,13 +32,13 @@ const FeaturesV2 = () => {
             <div className="mb-10 space-y-3 px-4 text-center sm:px-0 md:text-left lg:mb-14">
               <RevealAnimation delay={0.1}>
                 <h2>
-                  Real-time messaging for exceptional <span className="text-primary-500">customer interactions.</span>
+                  Real-time Python backends for <span className="text-primary-500">modern products.</span>
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p className="lg:max-w-[462px]">
-                  Provide live chat support to your customers. our chatbot effortlessly hands off to human agents when
-                  necessary.
+                  We design scalable Python services for live features like notifications, dashboards, and messaging
+                  with clean architectures that are easy to extend.
                 </p>
               </RevealAnimation>
             </div>
@@ -110,14 +110,14 @@ const FeaturesV2 = () => {
           <div className="w-full lg:w-1/2">
             <div className="mb-8 space-y-3 px-4 text-center sm:px-0 md:text-left lg:mb-14">
               <RevealAnimation delay={0.3}>
-                <h3 className="md:text-heading-3 lg:text-heading-2">
-                  Cutting-edge chatbot solutions for <span className="text-primary-500">modern apps.</span>
+                <h3 className="mb-3 text-2xl font-medium md:text-[32px] md:leading-[40px]">
+                  Ship maintainable <span className="text-primary-500">Python codebases</span> your team loves.
                 </h3>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="lg:max-w-[596px]">
-                  Customize it to align with your brand&apos;s personality. tailor the responses, and interactions to
-                  fit your business identity.
+                  We follow best practices for structure, testing, and documentation so your Python projects stay
+                  readable, testable, and easy to onboard new engineers onto.
                 </p>
               </RevealAnimation>
             </div>

@@ -6,10 +6,10 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const features = [
-  { id: 1, shape: 'ns-shape-50', text: 'Enterprise-level security' },
-  { id: 2, shape: 'ns-shape-52', text: 'Automated email flows' },
-  { id: 3, shape: 'ns-shape-41', text: 'Real-time analytics' },
-  { id: 4, shape: 'ns-shape-47', text: 'Live data insights' },
+  { id: 1, shape: 'ns-shape-50', text: 'Flexible architectures: headless or traditional CMS' },
+  { id: 2, shape: 'ns-shape-52', text: 'Editor-friendly content models and workflows' },
+  { id: 3, shape: 'ns-shape-41', text: 'Performance-optimized frontends for every device' },
+  { id: 4, shape: 'ns-shape-47', text: 'Integrations with your existing tools and APIs' },
 ];
 
 const FeaturesHighlight = () => {
@@ -20,16 +20,16 @@ const FeaturesHighlight = () => {
           <div className="md:flex-1 flex flex-col items-start">
             <div className="space-y-5 mb-6 lg:mb-14">
               <RevealAnimation delay={0.2}>
-                <span className="badge badge-green">Reasons to select us</span>
+                <span className="badge badge-green">Why teams choose our CMS builds</span>
               </RevealAnimation>
               <div className="space-y-3">
                 <RevealAnimation delay={0.3}>
-                  <h2 className="lg:max-w-[465px]">NextSaaS your smart email choice</h2>
+                  <h2 className="lg:max-w-[465px]">A CMS tailored to your content operations</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <p className="lg:max-w-[508px]">
-                    Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text nothing Before
-                    &amp; After magazine.
+                    We map your content types, approval flows, and publishing cadence into a CMS that&apos;s easy for
+                    editors and powerful for developers—so launches are faster and content stays consistent.
                   </p>
                 </RevealAnimation>
               </div>

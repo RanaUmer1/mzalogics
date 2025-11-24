@@ -13,7 +13,9 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Data Visualization Software - NextSaaS',
+  title: 'Product Prototyping Services - MzaLogics',
+  description:
+    'Rapid UX/UI and product prototyping to validate ideas, test flows, and align stakeholders before full development.',
 };
 
 const Homepage35 = () => {

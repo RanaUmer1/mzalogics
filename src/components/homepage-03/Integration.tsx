@@ -35,20 +35,20 @@ const Integration = () => {
         <article className="flex flex-col gap-x-20 gap-y-20 lg:flex-row">
           <div className="w-full max-lg:text-center lg:w-1/2">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-green-v2 mb-5">Integration</span>
+              <span className="badge badge-green-v2 mb-5">Python Integrations</span>
             </RevealAnimation>
 
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                Enhance your productivity with over
-                <span className="text-primary-500 lg:block">50 integrations.</span>
+                Connect your Python services to
+                <span className="text-primary-500 lg:block">the tools you already use.</span>
               </h2>
             </RevealAnimation>
 
             <RevealAnimation delay={0.3}>
               <p className="mb-8 lg:max-w-[596px]">
-                Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It&apos;s not Latin
-                though it looks like nothing.
+                We integrate Python APIs and automations with CRMs, task managers, file storage, and moreso data flows
+                reliably between your systems without manual work.
               </p>
             </RevealAnimation>
 
@@ -57,7 +57,7 @@ const Integration = () => {
                 <LinkButton
                   href="/integration-01"
                   className="btn btn-primary btn-lg md:btn-xl hover:btn-white-dark mx-auto block w-[90%] md:mx-0 md:inline-block md:w-auto">
-                  See it in action
+                  Explore integrations
                 </LinkButton>
               </div>
             </RevealAnimation>

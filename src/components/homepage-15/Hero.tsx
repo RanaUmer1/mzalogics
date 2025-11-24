@@ -19,12 +19,12 @@ const Hero = () => {
         <div className="space-y-14 text-center">
           <div className="space-y-4">
             <RevealAnimation delay={0.2}>
-              <h1 className="mx-auto max-w-[886px] w-full">Design that tells stories, code that connects.</h1>
+              <h1 className="mx-auto max-w-[886px] w-full">Web app UI design that feels as good as it looks.</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[700px] w-full">
-                Stay updated with the latest bitcoin price index, offering real-time data, historical trends, and market
-                insights to keep you informed about the cryptocurrency&apos;s value fluctuations.
+                I create clean, intuitive interfaces for web apps and dashboards—so your users can move faster, stay
+                focused, and actually enjoy using your product.
               </p>
             </RevealAnimation>
           </div>
@@ -32,9 +32,9 @@ const Hero = () => {
             <RevealAnimation delay={0.3} direction="left" offset={50}>
               <li className="w-full sm:w-auto">
                 <LinkButton
-                  href="/about-01"
+                  href="/projects"
                   className="btn dark:btn-accent btn-md md:btn-xl btn-secondary hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto">
-                  View portfolio
+                  View UI case studies
                 </LinkButton>
               </li>
             </RevealAnimation>
@@ -43,7 +43,7 @@ const Hero = () => {
                 <LinkButton
                   href="/contact-us"
                   className="btn hover:btn-secondary btn-md md:btn-xl btn-white dark:btn-white-dark dark:hover:btn-accent w-[90%] md:w-auto">
-                  Book a call
+                  Book a design call
                 </LinkButton>
               </li>
             </RevealAnimation>

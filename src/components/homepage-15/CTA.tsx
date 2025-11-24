@@ -9,9 +9,9 @@ const CTA = () => {
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px] bg-background-2 dark:bg-background-5 relative overflow-hidden z-10">
       <CTAV4
         badgeText="Get started"
-        ctaHeading="Let’s make something great"
-        ctaDescription="Have a project in mind, or just want to say hello? I’m always open to discussing new ideas, partnerships, or opportunities to collaborate."
-        ctaBtnText="Get started"
+        ctaHeading="Let&apos;s design a better web app experience"
+        ctaDescription="Share your product, users, and goals—and we&apos;ll plan a UI design engagement that elevates your web app."
+        ctaBtnText="Discuss UI design"
         inputFieldClass="px-[18px] h-12 outline-none py-3 shadow-1 placeholder:text-secondary/50 rounded-full border border-stroke-1 sm:min-w-[340px] sm:max-w-[340px] w-full bg-accent dark:bg-background-6 dark:border-stroke-7 dark:placeholder:text-accent/60 block focus:ring-[0.7px] focus-within:ring-primary-500 font-normal placeholder:font-normal"
         ctaCheckListData={[
           { id: '1', text: 'Freelance jobs' },

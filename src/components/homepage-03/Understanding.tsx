@@ -27,16 +27,16 @@ const Understanding = () => {
 
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">
-              Insights based on data to enhance
+              Observability and insights for your
               <br className="hidden md:block" />
-              <span className="text-primary-500 inline-block">decision-making.</span>
+              <span className="text-primary-500 inline-block">Python applications.</span>
             </h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 lg:max-w-[562px]">
-              Insights based on data play a vital role in enhancing decision-making across all areas of business and
-              strategy.
+              Track performance, errors, and usage patterns across your Python services so you can make confident
+              decisions, catch issues early, and continuously improve your product.
             </p>
           </RevealAnimation>
         </div>

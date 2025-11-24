@@ -16,12 +16,12 @@ const Services = () => {
       <div className="main-container">
         <div className="text-center space-y-3 mb-10 md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <h2>What I can help you with</h2>
+            <h2>Web app UI design services</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="max-w-[776px] mx-auto">
-              Whether you need a new visual identity, a high-performing website, or a design system, I offer creative
-              services tailored to help your brand grow with clarity and confidence.
+              From initial UX flows to polished UI screens and design systems, I design web app interfaces that are
+              visually consistent, easy to use, and ready for development.
             </p>
           </RevealAnimation>
         </div>
@@ -31,8 +31,8 @@ const Services = () => {
               <div className="col-span-12 lg:col-span-4 sm:col-span-6">
                 <div className="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
                   <div className="space-y-1">
-                    <h3 className="text-heading-6 md:text-heading-5">Web design &amp; front-end development</h3>
-                    <p>Create your free account in seconds</p>
+                    <h3 className="text-heading-6 md:text-heading-5">Web app UI &amp; dashboard design</h3>
+                    <p>Design clear, accessible interfaces for complex web applications and admin panels.</p>
                   </div>
                   <div>
                     <figure className="sm:max-w-[345px] max-w-full w-full rounded-2xl overflow-hidden">
@@ -51,8 +51,8 @@ const Services = () => {
               <div className="col-span-12 lg:col-span-4 sm:col-span-6">
                 <div className="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
                   <div className="space-y-1">
-                    <h3 className="text-heading-6 md:text-heading-5">Ui/ux design for saas and products</h3>
-                    <p>Create your free account in seconds</p>
+                    <h3 className="text-heading-6 md:text-heading-5">UI/UX for SaaS products</h3>
+                    <p>Map user journeys, wireframes, and high-fidelity UI for subscription-based web apps.</p>
                   </div>
                   <div>
                     <figure className="sm:max-w-[345px] max-w-full w-full">
@@ -71,8 +71,8 @@ const Services = () => {
               <div className="col-span-12 lg:col-span-4 sm:col-span-6">
                 <div className="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
                   <div className="space-y-1">
-                    <h3 className="text-heading-6 md:text-heading-5">Brand identity design</h3>
-                    <p>Create your free account in seconds</p>
+                    <h3 className="text-heading-6 md:text-heading-5">Design systems &amp; components</h3>
+                    <p>Build reusable component libraries and guidelines in Figma for consistent interfaces.</p>
                   </div>
                   <div>
                     <figure className="sm:max-w-[345px] max-w-full w-full">
@@ -86,8 +86,8 @@ const Services = () => {
               <div className="col-span-12 lg:col-span-4 sm:col-span-6">
                 <div className="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
                   <div className="space-y-1">
-                    <h3 className="text-heading-6 md:text-heading-5">Framer, webflow &amp; next.js development</h3>
-                    <p>Create your free account in seconds</p>
+                    <h3 className="text-heading-6 md:text-heading-5">Developer-ready handoff</h3>
+                    <p>Prepare specs, variants, and assets so your dev team can ship faster with fewer revisions.</p>
                   </div>
                   <div>
                     <figure className="sm:max-w-[345px] max-w-full w-full overflow-hidden rounded-2xl">
@@ -101,8 +101,8 @@ const Services = () => {
               <div className="col-span-12 lg:col-span-8">
                 <div className="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
                   <div className="space-y-1">
-                    <h3 className="text-heading-6 md:text-heading-5">Art direction &amp; creative consulting</h3>
-                    <p>Create your free account in seconds</p>
+                    <h3 className="text-heading-6 md:text-heading-5">Product UI audits &amp; iterations</h3>
+                    <p>Review your existing web app UI and ship iterative improvements that move key metrics.</p>
                   </div>
                   <div>
                     <figure className="max-w-[784px] overflow-hidden rounded-2xl w-full">
@@ -122,14 +122,14 @@ const Services = () => {
         <RevealAnimation delay={0.9}>
           <div className="flex flex-col md:flex-row items-center gap-y-5 md:gap-x-3 justify-center">
             <LinkButton
-              href="/our-services-01"
+              href="/projects"
               className="btn btn-secondary dark:btn-accent btn-md hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto">
-              Explore services
+              See UI design work
             </LinkButton>
             <LinkButton
               href="/contact-us"
               className="btn hover:btn-secondary dark:btn-transparent btn-white btn-md dark:hover:btn-accent w-[90%] md:w-auto">
-              Book a call
+              Book a design call
             </LinkButton>
           </div>
         </RevealAnimation>

@@ -22,15 +22,15 @@ import LinkButton from '../ui/button/LinkButton';
 const benefits = [
   {
     id: 1,
-    text: 'Boost your business with AI.',
+    text: 'Map user journeys and screens before development starts.',
   },
   {
     id: 2,
-    text: 'Trusted by leading industries worldwide.',
+    text: 'Quickly explore alternatives with low- and mid-fidelity wireframes.',
   },
   {
     id: 3,
-    text: 'Start your AI journey today.',
+    text: 'Align product, design, and engineering on the same structure.',
   },
 ];
 
@@ -159,13 +159,14 @@ const Hero = () => {
         <div className="text-left md:text-center max-md:pt-[150px] max-lg:pt-[200px]">
           <RevealAnimation delay={0.2}>
             <h1 className="mb-4">
-              Automate smarter. <br className="hidden md:block" />
-              Grow faster.
+              Wireframes that make your product<br className="hidden md:block" />
+              clear for everyone.
             </h1>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="max-w-[650px] mx-auto mb-6">
-              &nbsp;Save time and elevate your business with intelligent workflow automation from NextSaaS.
+              Turn ideas into structured page layouts and user flows so your team can discuss, refine, and sign off on
+              the product before pixels and code.
             </p>
           </RevealAnimation>
           <ul className="list-none mb-14 flex flex-col md:flex-row md:items-center md:justify-center md:flex-wrap lg:flex-nowrap gap-4 md:gap-9 w-fit md:mx-auto">
@@ -183,10 +184,10 @@ const Hero = () => {
           <RevealAnimation delay={0.7}>
             <div className="block md:inline-block">
               <LinkButton
-                href="/pricing-01"
+                href="/contact-us"
                 className="btn btn-primary hover:btn-white dark:btn-accent btn-xl dark:hover:btn-primary w-[90%] md:w-auto mx-auto"
-                aria-label="Start building free">
-                Get started
+                aria-label="Discuss your custom web app project">
+                Discuss your project
               </LinkButton>
             </div>
           </RevealAnimation>
@@ -212,12 +213,12 @@ const Hero = () => {
             <div className="lg:flex-1/2 py-16 max-lg:px-5 lg:pl-14">
               <div className="mb-9">
                 <RevealAnimation delay={0.2}>
-                  <h2 className="mb-3">Innovate for Impact.</h2>
+                  <h2 className="mb-3">Wireframe before you commit to builds.</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[530px]">
-                    At NextSaaS, we leverage AI and strategic insight to enhance business performance. Partner with us
-                    to unlock your potential.
+                    Use structured wireframes to uncover gaps, simplify flows, and make better product decisions while
+                    it&apos;s still cheap to change direction.
                   </p>
                 </RevealAnimation>
               </div>

@@ -11,15 +11,15 @@ const Features = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">
-              Enhance your sales and customer <br className="hidden md:block" />
-              support by
-              <span className="text-primary-500 inline-block">utilising chatbots.</span>
+              Build reliable Python systems that <br className="hidden md:block" />
+              power your
+              <span className="text-primary-500 inline-block">products and workflows.</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 lg:max-w-[696px]">
-              Unlock unparalleled benefits for your business with our services. Reach more customers, save time and
-              money.
+              We help you architect, implement, and optimize Python servicesfrom APIs and microservices to internal
+              tools and automationso your team can move faster with confidence.
             </p>
           </RevealAnimation>
         </div>

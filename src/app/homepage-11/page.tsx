@@ -16,7 +16,9 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Email Marketing - NextSaaS',
+  title: 'CMS Development Services - MzaLogics',
+  description:
+    'Custom CMS development, headless CMS implementations, and content workflows tailored to your marketing and product teams.',
 };
 const HomePage11 = () => {
   return (

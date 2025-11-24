@@ -14,7 +14,9 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Creative Portfolio - NextSaaS',
+  title: 'Web App UI Design - MzaLogics',
+  description:
+    'Modern, conversion-focused UI and UX design for web applications, dashboards, and product interfaces.',
 };
 
 const Homepage15 = () => {
