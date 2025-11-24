@@ -10,9 +10,8 @@ interface MaintenanceSupportMenuProps {
 }
 
 const maintenanceSupportItems = [
-  { id: 'app-maintenance', label: 'App Maintenance', href: '/services/maintenance-support/app-maintenance' },
-  { id: 'website-maintenance', label: 'Website Maintenance', href: '/services/maintenance-support/website-maintenance' },
-  { id: 'bug-fixing', label: 'Bug Fixing & Updates', href: '/services/maintenance-support/bug-fixing-updates' },
+  { id: 'app-maintenance', label: 'App Maintenance', href: '/services/app-maintenance' },
+  { id: 'website-maintenance', label: 'Website Maintenance', href: '/services/website-maintenance' },
 ];
 
 const MaintenanceSupportMenu: FC<MaintenanceSupportMenuProps> = ({ className }) => {

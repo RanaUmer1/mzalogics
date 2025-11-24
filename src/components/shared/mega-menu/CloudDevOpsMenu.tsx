@@ -10,9 +10,9 @@ interface CloudDevOpsMenuProps {
 }
 
 const cloudDevOpsItems = [
-  { id: 'aws-management', label: 'AWS Management', href: '/services/cloud-devops/aws-management' },
-  { id: 'ci-cd-setup', label: 'CI/CD Setup', href: '/services/cloud-devops/ci-cd-setup' },
-  { id: 'server-deployment', label: 'Server Deployment', href: '/services/cloud-devops/server-deployment' },
+  { id: 'aws-management', label: 'AWS Management', href: '/services/aws-management' },
+  { id: 'ci-cd-setup', label: 'CI/CD Setup', href: '/services/ci-cd-setup' },
+  { id: 'server-deployment', label: 'Server Deployment', href: '/services/server-deployment' },
 ];
 
 const CloudDevOpsMenu: FC<CloudDevOpsMenuProps> = ({ className }) => {

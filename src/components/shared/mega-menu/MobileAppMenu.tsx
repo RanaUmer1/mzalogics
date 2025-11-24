@@ -13,10 +13,8 @@ interface MobileAppMenuProps {
 const MobileAppMenu: FC<MobileAppMenuProps> = ({ className }) => {
   const pathname = usePathname();
   
-  // Filter mobile app related services (items with parentId = 'mobile-app-dev')
-  const mobileAppItems = servicesMenuItems.filter(
-    item => item.parentId === 'mobile-app-dev' || item.id === 'mobile-app-dev'
-  );
+  // Filter only child items under Mobile App Development (exclude the parent entry itself)
+  const mobileAppItems = servicesMenuItems.filter((item) => item.parentId === 'mobile-app-dev');
 
   return (
     <div className={cn('pl-4 border-l-2 border-gray-100 dark:border-gray-800 ml-2', className)}>

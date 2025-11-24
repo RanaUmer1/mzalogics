@@ -11,14 +11,14 @@ const Blog = () => {
       tag: 'DevOps',
       title: 'How to reduce deployment risk without slowing teams down',
       href: '/blog',
-      image: blog1,
+      image: '/images/home-page-18/project-1.png',
     },
     {
       id: 2,
       tag: 'Engineering',
       title: 'From manual deploys to automated pipelines: a practical guide',
       href: '/blog',
-      image: blog2,
+      image: '/images/home-page-18/project-2.png',
     },
   ];
 
@@ -38,8 +38,8 @@ const Blog = () => {
           {posts.map((post, index) => (
             <RevealAnimation key={post.id} delay={0.4 + index * 0.1}>
               <article className="col-span-12 md:col-span-6 lg:col-span-6 bg-white dark:bg-background-8 rounded-[20px] overflow-hidden">
-                <figure className="w-full h-[220px] overflow-hidden">
-                  <Image src={post.image} alt={post.title} className="w-full h-full object-cover" />
+                <figure className="relative w-full h-[220px] overflow-hidden">
+                  <Image src={post.image} alt={post.title} fill className="object-cover" />
                 </figure>
                 <div className="p-6 space-y-3">
                   <span className="inline-flex items-center rounded-full bg-background-3 dark:bg-background-7 px-3 py-1 text-tagline-3 text-secondary/70 dark:text-accent/70">
