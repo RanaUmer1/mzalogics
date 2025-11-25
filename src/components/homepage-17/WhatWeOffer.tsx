@@ -13,34 +13,40 @@ interface ServiceData {
 
 const servicesData: ServiceData[] = [
   {
-    id: 'mobile-app',
+    id: 'custom-software',
     icon: 'ns-shape-34',
-    title: 'Mobile app development.',
-    description: 'Native iOS & android apps built for performance and scalability.',
+    title: 'Custom Software Development',
+    description: 'Enterprise-grade software solutions tailored to your unique business processes and requirements.',
+  },
+  {
+    id: 'mobile-app',
+    icon: 'ns-shape-38',
+    title: 'Mobile App Development',
+    description: 'Native iOS & Android apps, plus cross-platform solutions with Flutter and React Native.',
   },
   {
     id: 'web-app',
-    icon: 'ns-shape-38',
-    title: 'Web app development.',
-    description: 'Fast, secure, and scalable web applications for all industries.',
+    icon: 'ns-shape-35',
+    title: 'Web Applications & Design',
+    description: 'Fast, secure, and scalable web applications with stunning UI/UX design.',
   },
   {
     id: 'ui-ux',
-    icon: 'ns-shape-35',
-    title: 'UI/UX design.',
-    description: 'Intuitive and engaging interfaces that boost user satisfaction.',
-  },
-  {
-    id: 'mvp-prototype',
     icon: 'ns-shape-17',
-    title: 'MVP & prototype development.',
-    description: 'Validate your product idea before investing heavily.',
+    title: 'UI/UX Design',
+    description: 'Intuitive interfaces and user experiences that boost engagement and satisfaction.',
   },
   {
-    id: 'maintenance',
+    id: 'devops',
     icon: 'ns-shape-25',
-    title: 'Maintenance & support.',
-    description: 'Ongoing support and performance optimization post-launch.',
+    title: 'DevOps & Cloud Infrastructure',
+    description: 'CI/CD pipelines, cloud deployment, and infrastructure management for seamless operations.',
+  },
+  {
+    id: 'qa-testing',
+    icon: 'ns-shape-25',
+    title: 'QA Testing & Automation',
+    description: 'Comprehensive testing strategies ensuring quality, performance, and reliability.',
   },
 ];
 
@@ -57,10 +63,10 @@ const WhatWeOffer = () => {
                 </RevealAnimation>
                 <div className="space-y-2 md:max-w-[595px]">
                   <RevealAnimation delay={0.4}>
-                    <h2>End-to-end app development services.</h2>
+                    <h2>Comprehensive Software Development Services</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.5}>
-                    <p>Everything you need to launch, grow, and scale a successful app.</p>
+                    <p>Everything you need to transform your ideas into scalable, secure digital solutions.</p>
                   </RevealAnimation>
                 </div>
                 <RevealAnimation delay={0.6}>

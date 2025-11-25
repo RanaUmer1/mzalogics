@@ -17,7 +17,7 @@ const Process = () => {
             <span className="badge inline-block badge-primary-light">Our Process</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2 className="lg:max-w-[396px]">From Idea to app store simplified</h2>
+            <h2 className="lg:max-w-[396px]">From Discovery to Deployment — Simplified</h2>
           </RevealAnimation>
         </div>
         <div ref={ref} className="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-[62px]">
@@ -32,8 +32,8 @@ const Process = () => {
               <p className="text-tagline-2 text-primary-500">01</p>
               {/* text  */}
               <div className="space-y-2">
-                <h2 className="text-heading-5">Discovery &amp; strategy</h2>
-                <p className="max-w-[260px] w-full">Start your application in minutes—no paperwork required.</p>
+                <h2 className="text-heading-5">Discovery & Planning</h2>
+                <p className="max-w-[260px] w-full">We understand your business, users, and goals to create a strategic roadmap.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -48,8 +48,8 @@ const Process = () => {
               <p className="text-tagline-2 text-primary-500">02</p>
               {/* text  */}
               <div className="space-y-2">
-                <h2 className="text-heading-5">Design &amp; prototype</h2>
-                <p>Our team reviews your application and offers a personalized loan solution.</p>
+                <h2 className="text-heading-5">Design & Prototyping</h2>
+                <p>We craft intuitive UI/UX designs and interactive prototypes for user validation.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -64,8 +64,8 @@ const Process = () => {
               <p className="text-tagline-2 text-primary-500">03</p>
               {/* text  */}
               <div className="space-y-2">
-                <h2 className="text-heading-5">Development &amp; testing</h2>
-                <p>We handle the coordination, documents, and closing logistics.</p>
+                <h2 className="text-heading-5">Development, Testing & Launch</h2>
+                <p>Agile development with continuous testing, followed by seamless deployment and support.</p>
               </div>
             </div>
           </RevealAnimation>

@@ -61,11 +61,11 @@ const Hero = () => {
                 <div>
                   <div className="space-y-2 md:space-y-4 mb-6 md:mb-8 text-center md:text-left">
                     <RevealAnimation delay={0.2}>
-                      <h1 className="max-w-full lg:max-w-[507px] dark:text-secondary">Apps made for the future!</h1>
+                      <h1 className="max-w-full lg:max-w-[507px] dark:text-secondary">We Build Software That Drives Your Business Forward</h1>
                     </RevealAnimation>
                     <RevealAnimation delay={0.4}>
                       <p className="md:max-w-[429px] text-secondary/60">
-                        From concept to launch, we design and develop mobile and web apps that drive real results.
+                        From concept to deployment, we deliver custom software solutions that are secure, scalable, and built for growth.
                       </p>
                     </RevealAnimation>
                   </div>
@@ -106,10 +106,10 @@ const Hero = () => {
                     </div>
                     <div>
                       <RevealAnimation delay={0.6} offset={40}>
-                        <p className="font-medium block text-left text-secondary text-tagline-2">Trusted by 20k+</p>
+                        <p className="font-medium block text-left text-secondary text-tagline-2">Trusted by 100+</p>
                       </RevealAnimation>
                       <RevealAnimation delay={0.7} offset={40}>
-                        <p className="text-tagline-3 dark:text-secondary/60">Customers across the globe</p>
+                        <p className="text-tagline-3 dark:text-secondary/60">Businesses worldwide</p>
                       </RevealAnimation>
                     </div>
                   </div>

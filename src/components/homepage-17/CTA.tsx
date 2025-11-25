@@ -24,12 +24,11 @@ const CTA = () => {
                 </RevealAnimation>
                 <div className="space-y-3">
                   <RevealAnimation delay={0.3}>
-                    <h2>Ready to grow smarter?</h2>
+                    <h2>Ready to Transform Your Business?</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.4}>
                     <p className="max-w-[558px] md:w-full mx-auto">
-                      Let&apos;s make your marketing budget work harder—not bigger. Book your strategy call today and
-                      take the first step toward predictable growth.
+                      Let's turn your vision into powerful, scalable software. Schedule a free consultation to discuss your project and discover how we can help you succeed.
                     </p>
                   </RevealAnimation>
                 </div>
@@ -39,7 +38,7 @@ const CTA = () => {
                   <LinkButton
                     href="/contact-us"
                     className="btn btn-secondary hover:btn-white dark:btn-transparent dark:hover:btn-accent btn-lg xl:btn-xl">
-                    Book your free strategy call
+                    Book your free consultation
                   </LinkButton>
                 </div>
               </RevealAnimation>

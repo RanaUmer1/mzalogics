@@ -14,7 +14,8 @@ import { Fragment } from 'react';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'App Development - NextSaaS',
+  title: 'MZA Logics - Custom Software Development & Digital Solutions',
+  description: 'Leading software development company offering custom software, mobile app development, web applications, UI/UX design, and DevOps solutions. Transform your business with scalable, secure technology.',
 };
 
 const Homepage = () => {
