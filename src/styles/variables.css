@@ -58,6 +58,17 @@ All the varaiables are added here
   --color-gradient-10: linear-gradient(135deg, #83e7ee 0%, #c6f56f 100%);
   --color-gradient-11: linear-gradient(179deg, rgba(255, 255, 255, 0) 0.68%, #fff 79.47%);
   --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #83e7ee 0%, rgba(134, 79, 254, 0) 100%);
+  
+  /* MZA Logics Custom Tokens */
+  --color-mza-blue: #3E5BFF;
+  --color-mza-purple: #864FFE;
+  --color-mza-neon: #00F5FF;
+  --color-mza-bg: #0B0F19;
+  --color-mza-bg-soft: #161B22;
+  --color-mza-gradient-primary: linear-gradient(135deg, #3E5BFF 0%, #864FFE 100%);
+  --color-mza-gradient-accent: linear-gradient(90deg, #00F5FF 0%, #3E5BFF 100%);
+  --color-mza-glass: rgba(255, 255, 255, 0.05);
+  --color-mza-glass-stroke: rgba(255, 255, 255, 0.1);
   /* =============== TYPOGRAPHY =============== */
   --text-heading-1: 4.25rem;
   --text-heading-1--line-height: 110%;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MZA Logics Software Solutions</title>
+  <desc id="desc">Logo for MZA Logics Software Solutions</desc>
+  <defs>
+    <linearGradient id="hexGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A8B5"/>
+      <stop offset="1" stop-color="#007C9D"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagon mark -->
+  <g transform="translate(20,20) scale(0.9)">
+    <path d="M48 4L16 22V58L48 76L80 58V22L48 4Z" fill="url(#hexGradient)"/>
+    <path d="M48 4L16 22V58L32 49.5V31L48 22.5V4Z" fill="#00C0C9"/>
+    <path d="M64 31L48 39.5V58L64 49.5V31Z" fill="#0092A8"/>
+    <path d="M48 40L32 48.5L48 57L64 48.5L48 40Z" fill="white"/>
+  </g>
+  <!-- Wordmark -->
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="30" letter-spacing="0.04em" transform="translate(120,52)">
+    <text fill="#0D2645">MZA</text>
+    <text x="86" fill="#05B9C7">Logics</text>
+  </g>
+  <!-- Tagline -->
+  <text x="120" y="86" fill="#384B63" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" letter-spacing="0.35em">
+    SOFTWARE SOLUTIONS
+  </text>
+</svg>

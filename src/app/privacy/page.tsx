@@ -1,40 +1,32 @@
-import CTAV1 from '@/components/shared/cta/CTAV1';
-import FooterThree from '@/components/shared/footer/FooterThree';
-import NavbarOne from '@/components/shared/header/NavbarOne';
-import PageHero from '@/components/shared/PageHero';
-import TermsConditionContent from '@/components/terms-conditions/TermsConditionContent';
-import { defaultMetadata } from '@/utils/generateMetaData';
-import { Metadata } from 'next';
-import { Fragment } from 'react';
+import Navbar from '@/components/mza/Navbar';
+import Footer from '@/components/mza/Footer';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Privacy - NextSaaS',
-};
-
-const Privacy = () => {
+export default function PrivacyPage() {
   return (
-    <Fragment>
-      <NavbarOne
-        className="border border-stroke-2 bg-accent/60 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
-        btnClassName="btn-primary hover:btn-secondary dark:hover:btn-accent"
-      />
-      <main className="bg-background-3 dark:bg-background-7">
-        <PageHero title="Privacy" heading="Privacy" link="/privacy" />
-        <TermsConditionContent />
-        <CTAV1
-          className="dark:bg-background-5 bg-white"
-          badgeClass="badge-yellow-v2"
-          badgeText="Get Started"
-          ctaHeading="Ready to start earning with NextSaaS?"
-          description="If you have any questions, feel free to reach out to our team."
-          btnClass="hover:btn-secondary dark:hover:btn-accent"
-          ctaBtnText="Get started"
-        />
+    <>
+      <Navbar />
+      <main className="bg-mza-bg text-white pt-32 min-h-screen">
+        <div className="main-container py-24 max-w-4xl">
+          <h1 className="text-5xl font-bold mb-12">Privacy Policy</h1>
+          <div className="prose prose-invert max-w-none space-y-8 text-gray-400">
+            <p>Last Updated: April 2026</p>
+            <p>At MZA Logics, we respect your privacy and are committed to protecting it. This Privacy Policy describes how we collect, use, and process your personal information when you visit our website or use our services.</p>
+            
+            <h2 className="text-2xl font-bold text-white mt-12 mb-6">1. Information We Collect</h2>
+            <p>We may collect information that you provide directly to us, such as your name, email address, and company details when you contact us for a project or sign up for our newsletter.</p>
+            
+            <h2 className="text-2xl font-bold text-white mt-12 mb-6">2. How We Use Your Information</h2>
+            <p>We use the information we collect to provide, maintain, and improve our services, communicate with you, and develop new products. We do not sell your personal information to third parties.</p>
+            
+            <h2 className="text-2xl font-bold text-white mt-12 mb-6">3. Data Security</h2>
+            <p>We implement industry-standard security measures to protect your data. However, no method of transmission over the internet is 100% secure.</p>
+            
+            <h2 className="text-2xl font-bold text-white mt-12 mb-6">4. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at contact@mzalogics.com.</p>
+          </div>
+        </div>
       </main>
-      <FooterThree />
-    </Fragment>
+      <Footer />
+    </>
   );
-};
-
-export default Privacy;
+}
