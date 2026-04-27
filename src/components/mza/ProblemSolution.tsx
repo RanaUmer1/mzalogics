@@ -6,19 +6,19 @@ const ProblemSolution = () => {
   const problems = [
     {
       icon: <AlertCircle className="text-red-400" />,
-      text: "Developers who disappear mid-project.",
+      text: "Agencies that vanish once the invoice is paid.",
     },
     {
       icon: <Zap className="text-yellow-400" />,
-      text: "Poor app performance and laggy UI.",
+      text: "Generic, off-the-shelf tools that don't fit your workflow.",
     },
     {
       icon: <ShieldCheck className="text-orange-400" />,
-      text: "Bad UI/UX that kills conversions.",
+      text: "Hand-offs between juniors that stall delivery.",
     },
     {
       icon: <TrendingUp className="text-blue-400" />,
-      text: "Projects that won't scale with users.",
+      text: "Products that break the moment real users show up.",
     }
   ];
 
@@ -29,8 +29,13 @@ const ProblemSolution = () => {
           <div>
             <RevealAnimation delay={0.1}>
               <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8">
-                Stop Settling for <span className="text-gray-500 line-through">Average</span> Software
+                Most software fails for the same <span className="text-gray-500 line-through">reasons</span> patterns
               </h2>
+            </RevealAnimation>
+            <RevealAnimation delay={0.15}>
+              <p className="text-gray-400 text-lg mb-10 max-w-xl">
+                After years inside enterprises, startups and product teams, our founders kept seeing the same problems. So in 2021 we started MZA-Logics to solve them differently.
+              </p>
             </RevealAnimation>
             
             <div className="space-y-6">
@@ -49,17 +54,17 @@ const ProblemSolution = () => {
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
             <RevealAnimation delay={0.5}>
               <div className="relative z-10 text-white">
-                <h3 className="text-3xl font-bold mb-6">The MZA Difference</h3>
+                <h3 className="text-3xl font-bold mb-6">How we work differently</h3>
                 <p className="text-xl opacity-90 mb-8 leading-relaxed">
-                  We don’t just build apps — we build scalable products that grow businesses. MZA Logics focuses on speed, stability, and conversion-focused design.
+                  We start with your business — not a stack of technologies. Every product we ship is shaped by a deep understanding of your goals, your users, and the realities of your market.
                 </p>
                 
                 <ul className="space-y-4">
                   {[
-                    "Battle-tested clean architecture",
-                    "Senior-only engineering team",
-                    "Conversion-optimized UI/UX",
-                    "Direct communication (No middlemen)"
+                    "Senior engineers on every project — no junior hand-offs",
+                    "Direct communication with the people writing the code",
+                    "Technology-agnostic: we pick the stack that fits your product",
+                    "End-to-end — discovery, design, build, QA, launch, support",
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-3">
                       <div className="size-6 rounded-full bg-white/20 flex items-center justify-center">

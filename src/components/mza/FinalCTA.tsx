@@ -17,46 +17,54 @@ const FinalCTA = () => {
           
           <RevealAnimation delay={0.2}>
             <h2 className="text-5xl lg:text-7xl font-bold mt-6 mb-10 text-white tracking-tighter">
-              Let’s Turn It Into a <span className="text-mza-neon italic">Real Product.</span>
+              Let&apos;s talk about <span className="text-mza-neon italic">what you&apos;re building.</span>
             </h2>
           </RevealAnimation>
           
           <RevealAnimation delay={0.3}>
             <p className="text-gray-400 text-xl max-w-2xl mx-auto mb-12">
-              Join 150+ successful founders who scaled their businesses with our engineering expertise.
+              Tell us about your product — even if it&apos;s still an idea on a napkin. You&apos;ll get a thoughtful response from a senior engineer, usually within one business day.
             </p>
           </RevealAnimation>
 
           <div className="flex flex-wrap justify-center gap-6">
             <RevealAnimation delay={0.4} direction="up" offset={20}>
               <LinkButton
-                href="https://wa.me/yourwhatsapp"
+                href="https://wa.me/923003600188"
                 className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#25D366] text-white font-bold hover:scale-105 transition-all shadow-xl shadow-[#25D366]/20"
               >
                 <div className="bg-white/20 p-2 rounded-lg">
                   <MessageSquare size={18} />
                 </div>
-                Contact on WhatsApp
+                WhatsApp · 0300 3600188
               </LinkButton>
             </RevealAnimation>
 
             <RevealAnimation delay={0.5} direction="up" offset={20}>
               <LinkButton
-                href="mailto:contact@mzalogics.com"
+                href="mailto:Mzalogics@gmail.com"
                 className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-mza-gradient-primary text-white font-bold hover:scale-105 transition-all shadow-xl shadow-mza-blue/20"
               >
                 <div className="bg-white/20 p-2 rounded-lg">
                    <Mail size={18} />
                 </div>
-                Email Us Directly
+                Mzalogics@gmail.com
               </LinkButton>
             </RevealAnimation>
           </div>
 
-          <div className="mt-16 flex flex-wrap justify-center gap-8 text-gray-500">
-             <div className="flex items-center gap-2">
+          <div className="mt-16 flex flex-wrap justify-center gap-x-10 gap-y-4 text-gray-400">
+             <a href="tel:+923003600188" className="flex items-center gap-2 hover:text-mza-neon transition-colors">
                 <PhoneCall size={16} />
-                <span>Available for free 30-min strategy call</span>
+                <span>0300 3600188</span>
+             </a>
+             <div className="flex items-center gap-2">
+                <span className="text-mza-neon">●</span>
+                <span>Free 30-minute discovery call — no obligation</span>
+             </div>
+             <div className="flex items-center gap-2">
+                <span className="text-mza-neon">●</span>
+                <span>144 G Block, DHA Phase 1, Lahore, Pakistan</span>
              </div>
           </div>
         </div>

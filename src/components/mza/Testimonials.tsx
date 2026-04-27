@@ -2,24 +2,26 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { Star } from 'lucide-react';
 
+// Anonymized references — shared by clients under NDA. Real names & logos
+// are available on request during the sales process.
 const testimonials = [
   {
-    name: "Sarah Jenkins",
-    company: "FitScale Global",
-    text: "MZA Logics didn't just build our app; they improved our entire product strategy. The performance is rock solid, and our user engagement grew by 40% after the launch.",
-    result: "40% Engagement Boost"
+    role: "Head of Product",
+    company: "Healthcare SaaS · Europe",
+    text: "They behaved like an in-house team from day one. Weekly demos, clear trade-offs, and a real product mindset — not just ticket-takers.",
+    result: "Dedicated Product Team"
   },
   {
-    name: "Ahmed Al-Fayed",
-    company: "SwiftShip Logistics",
-    text: "I've worked with many agencies, but Umer's team is on a different level. Their attention to clean architecture meant we could scale without bottlenecks.",
-    result: "Scalable Infrastructure"
+    role: "Founder & CEO",
+    company: "D2C E-commerce · Pakistan",
+    text: "We rebuilt our storefront with MZA-Logics and finally stopped fire-fighting bugs every weekend. The codebase is something we can actually hand to the next developer.",
+    result: "Stable, Maintainable Build"
   },
   {
-    name: "James Chen",
-    company: "NextGen SaaS",
-    text: "The UI/UX design is world-class. It feels like a Silicon Valley product. Highly professional and technically proficient.",
-    result: "Premium UI/UX"
+    role: "VP of Engineering",
+    company: "B2B SaaS · North America",
+    text: "Senior engineers, honest timelines, and a PM who held the line on scope. Rare combination — we've already moved a second project to them.",
+    result: "Repeat Engagement"
   }
 ];
 
@@ -32,7 +34,12 @@ const Testimonials = () => {
             <span className="text-mza-neon font-bold uppercase tracking-wider text-sm">Testimonials</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="text-4xl lg:text-5xl font-bold mt-4 text-white">Trusted by Industry Leaders</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold mt-4 text-white">What our clients say</h2>
+          </RevealAnimation>
+          <RevealAnimation delay={0.3}>
+            <p className="text-gray-400 mt-4 max-w-xl mx-auto">
+              References are anonymized out of respect for client NDAs. Real names, logos and live references are shared during the sales process.
+            </p>
           </RevealAnimation>
         </div>
 
@@ -52,7 +59,7 @@ const Testimonials = () => {
                   <div className="p-3 rounded-xl bg-white/5 border border-white/5 inline-block mb-4">
                      <span className="text-mza-neon font-bold text-xs uppercase tracking-widest">{t.result}</span>
                   </div>
-                  <h4 className="text-white font-bold text-lg">{t.name}</h4>
+                  <h4 className="text-white font-bold text-lg">{t.role}</h4>
                   <p className="text-gray-500 text-sm">{t.company}</p>
                 </div>
               </div>

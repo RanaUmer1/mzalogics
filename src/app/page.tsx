@@ -13,9 +13,21 @@ import { Metadata } from 'next';
 import { Fragment } from 'react';
 
 export const metadata: Metadata = {
-  title: 'MZA Logics | Build Apps That Scale, Perform & Convert',
-  description: 'MZA Logics is a mobile-first product engineering company that builds scalable, high-performance apps for startups and businesses. Specialized in Android, iOS, Flutter, and Web development.',
-  keywords: ['Mobile App Development Company Pakistan', 'Android App Developers', 'AI App Development Services', 'Flutter App Development', 'SaaS Development', 'Scalable Software'],
+  title: 'MZA-Logics | Custom Software That Drives Your Business Forward',
+  description: 'MZA-Logics is a 25+ person software engineering company founded in 2021. We partner with startups and enterprises in Pakistan and worldwide to build custom software, mobile apps, web platforms, and cloud infrastructure.',
+  keywords: [
+    'Custom Software Development Pakistan',
+    'Software House Lahore',
+    'Mobile App Development Company',
+    'Android App Developers',
+    'iOS App Development',
+    'Flutter & React Native',
+    'Web Development Pakistan',
+    'Cloud & DevOps',
+    'SaaS Development',
+    'UI/UX Design',
+    'MZA Logics',
+  ],
 };
 
 const Homepage = () => {

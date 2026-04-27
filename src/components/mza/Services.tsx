@@ -1,43 +1,57 @@
 'use client';
 import RevealAnimation from '@/components/animation/RevealAnimation';
-import { Smartphone, Layout, Cpu, Palette, Globe } from 'lucide-react';
+import { Smartphone, Cloud, Palette, Globe, ShieldCheck, GitMerge, Code2 } from 'lucide-react';
 
 const services = [
   {
+    title: "Custom Software Development",
+    description: "Tailored platforms built around how your business actually works — not around a template.",
+    icon: <Code2 className="size-8 text-mza-neon" />,
+    features: ["Business process automation", "Internal tools & dashboards", "SaaS & B2B platforms", "Legacy system modernization"],
+    tech: ["Node.js", ".NET", "Python", "PostgreSQL"]
+  },
+  {
     title: "Mobile App Development",
-    description: "High-performance native apps that dominate the market.",
-    icon: <Smartphone className="size-8 text-mza-neon" />,
-    features: ["Native Android (Kotlin)", "iOS (Swift)", "Performance Optimization", "Play Store Deployment"],
-    tech: ["Kotlin", "Swift", "Jetpack Compose", "SwiftUI"]
+    description: "Native and cross-platform apps engineered for performance, reliability and long-term maintainability.",
+    icon: <Smartphone className="size-8 text-blue-400" />,
+    features: ["Android (Kotlin / Java)", "iOS (Swift)", "Flutter & React Native", "Store submission & post-launch support"],
+    tech: ["Kotlin", "Swift", "Flutter", "React Native"]
   },
   {
-    title: "Web Development",
-    description: "Robust backends and lighting-fast frontends.",
-    icon: <Globe className="size-8 text-blue-400" />,
-    features: ["Enterprise Architecture", "Admin Dashboards", "API Integrations", "Optimized SEO"],
-    tech: ["Laravel", "Vue.js", "Next.js", "React"]
+    title: "Web Development & CMS",
+    description: "Fast, SEO-ready websites and web applications — from marketing sites to complex admin portals.",
+    icon: <Globe className="size-8 text-purple-400" />,
+    features: ["Next.js & React front-ends", "Laravel / Node.js back-ends", "Headless & traditional CMS", "E-commerce builds"],
+    tech: ["Next.js", "React", "Laravel", "WordPress"]
   },
   {
-    title: "Cross Platform",
-    description: "Ship faster without compromising quality.",
-    icon: <Layout className="size-8 text-purple-400" />,
-    features: ["Flutter Development", "Shared Codebase", "Fast Iterations", "Reliable Scaling"],
-    tech: ["Flutter", "Dart", "Firebase"]
+    title: "Cloud Infrastructure & DevOps",
+    description: "Production-grade cloud setups, CI/CD pipelines and monitoring so your product stays online.",
+    icon: <Cloud className="size-8 text-pink-400" />,
+    features: ["AWS / GCP / Azure setup", "CI/CD pipelines", "Container orchestration", "Monitoring & cost optimization"],
+    tech: ["AWS", "Docker", "Kubernetes", "Terraform"]
   },
   {
-    title: "AI Solutions",
-    description: "Integrate intelligence into your business workflow.",
-    icon: <Cpu className="size-8 text-pink-400" />,
-    features: ["Custom Chatbots", "Workflow Automation", "AI Integrations", "Data Insights"],
-    tech: ["OpenAI", "Python", "TensorFlow"]
-  },
-  {
-    title: "UI/UX Design",
-    description: "Data-driven design that converts users to customers.",
+    title: "UI/UX Design & Product Strategy",
+    description: "Design-led thinking that starts with users and business outcomes, then turns them into clean interfaces.",
     icon: <Palette className="size-8 text-yellow-400" />,
-    features: ["User Wireframes", "Interactive Prototypes", "App Flows", "conversion-focused UI"],
-    tech: ["Figma", "Adobe XD", "Prototyping"]
-  }
+    features: ["Discovery & user research", "Wireframes & prototypes", "Design systems", "Conversion-focused UI"],
+    tech: ["Figma", "Design Systems", "Prototyping"]
+  },
+  {
+    title: "QA, Testing & Automation",
+    description: "Independent QA engineers and automated test suites to catch issues before your users do.",
+    icon: <ShieldCheck className="size-8 text-emerald-400" />,
+    features: ["Manual & exploratory QA", "Automated test suites", "Performance & load testing", "Security reviews"],
+    tech: ["Cypress", "Playwright", "Appium", "JMeter"]
+  },
+  {
+    title: "Agile Project Management",
+    description: "Dedicated PMs who keep delivery predictable — clear scope, clear sprints, clear communication.",
+    icon: <GitMerge className="size-8 text-indigo-400" />,
+    features: ["Sprint planning & delivery", "Scope & risk management", "Weekly client reviews", "Transparent reporting"],
+    tech: ["Scrum", "Kanban", "Jira", "Linear"]
+  },
 ];
 
 const Services = () => {
@@ -49,7 +63,12 @@ const Services = () => {
             <span className="text-mza-neon font-bold uppercase tracking-wider text-sm">What We Do</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="text-4xl lg:text-5xl font-bold mt-4">Precision Engineering for Every Screen</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold mt-4">End-to-end engineering, under one roof</h2>
+          </RevealAnimation>
+          <RevealAnimation delay={0.3}>
+            <p className="text-gray-400 text-lg mt-6 max-w-2xl mx-auto">
+              Seven tightly-integrated service lines, one senior team. Engage us for a single capability — or for full product ownership from idea to launch.
+            </p>
           </RevealAnimation>
         </div>
 

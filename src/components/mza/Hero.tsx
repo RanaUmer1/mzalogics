@@ -16,19 +16,19 @@ const Hero = () => {
             <RevealAnimation delay={0.1} direction="down">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-mza-glass border border-mza-glass-stroke backdrop-blur-md mb-6">
                 <span className="flex h-2 w-2 rounded-full bg-mza-neon animate-pulse mr-2"></span>
-                <span className="text-xs uppercase tracking-widest font-semibold text-mza-neon">Leading App Engineering Agency</span>
+                <span className="text-xs uppercase tracking-widest font-semibold text-mza-neon">Custom Software Engineering · Since 2021</span>
               </div>
             </RevealAnimation>
             
             <RevealAnimation delay={0.2} direction="down">
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-                Build Apps That <span className="text-mza-neon">Scale</span>, Perform & Convert
+                We Build Software That <span className="text-mza-neon">Drives Your Business</span> Forward
               </h1>
             </RevealAnimation>
             
             <RevealAnimation delay={0.3} direction="down">
               <p className="text-xl text-gray-400 mb-8 max-w-xl">
-                We help startups and businesses launch high-performance mobile and web apps used by thousands. High-performance, scalable, and user-centric.
+                MZA-Logics is a team of 25+ senior engineers, designers and product people partnering with founders and enterprises — in Pakistan and worldwide — to ship custom software that actually fits how they work.
               </p>
             </RevealAnimation>
             
@@ -38,27 +38,32 @@ const Hero = () => {
                   href="#contact"
                   className="px-8 py-4 rounded-xl bg-mza-gradient-primary font-bold text-white hover:shadow-lg hover:shadow-mza-blue/20 transition-all text-center"
                 >
-                  Start Your Project
+                  Book a Discovery Call
                 </LinkButton>
                 <LinkButton
-                  href="/portfolio"
+                  href="#services"
                   className="px-8 py-4 rounded-xl bg-mza-glass border border-mza-glass-stroke font-bold text-white hover:bg-white/10 transition-all backdrop-blur-md text-center"
                 >
-                  See Our Work
+                  Explore Our Services
                 </LinkButton>
               </div>
             </RevealAnimation>
             
             <RevealAnimation delay={0.5} direction="up" offset={20}>
-              <div className="mt-12 flex items-center gap-8">
+              <div className="mt-12 flex items-center gap-6 flex-wrap">
                 <div>
-                  <p className="text-2xl font-bold text-white">150+</p>
-                  <p className="text-sm text-gray-500 uppercase tracking-wider">Projects Delivered</p>
+                  <p className="text-2xl font-bold text-white">25+</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-wider">Engineers & Designers</p>
                 </div>
                 <div className="w-px h-10 bg-gray-800"></div>
                 <div>
-                  <p className="text-2xl font-bold text-white">10M+</p>
-                  <p className="text-sm text-gray-500 uppercase tracking-wider">Users Reached</p>
+                  <p className="text-2xl font-bold text-white">50+</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-wider">Products Delivered</p>
+                </div>
+                <div className="w-px h-10 bg-gray-800"></div>
+                <div>
+                  <p className="text-2xl font-bold text-white">2021</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-wider">Founded by Senior Engineers</p>
                 </div>
               </div>
             </RevealAnimation>

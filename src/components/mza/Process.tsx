@@ -5,32 +5,32 @@ const steps = [
   {
     num: "01",
     title: "Discovery",
-    desc: "We dive deep into your business goals, target audience, and market landscape to define the perfect product strategy."
+    desc: "We sit down with you — remote or in person — to understand your business, users and commercial goals. You leave with clarity on scope, risks and trade-offs."
   },
   {
     num: "02",
     title: "Planning",
-    desc: "Architecting the technical foundation and mapping out user journeys for a seamless experience."
+    desc: "Architecture decisions, stack selection and sprint roadmap. Written estimates, milestones and a shared backlog so expectations are never fuzzy."
   },
   {
     num: "03",
     title: "Design",
-    desc: "Creating pixel-perfect, conversion-focused UI/UX that brings your vision to life beautifully."
+    desc: "User flows, wireframes and a component-based design system. Reviewed with you at every step — no surprises at hand-off."
   },
   {
     num: "04",
     title: "Development",
-    desc: "Writing clean, scalable code using modern technologies (Kotlin, Swift, Laravel, Vue) for high performance."
+    desc: "Senior engineers shipping in weekly sprints. You get access to the repo, a staging environment and demos at the end of every sprint."
   },
   {
     num: "05",
-    title: "Testing",
-    desc: "Rigorous quality assurance to ensure your app is bug-free, fast, and secure across all devices."
+    title: "QA & Testing",
+    desc: "Dedicated QA runs manual, automated and performance tests. Security reviews for anything touching payments, PII or healthcare data."
   },
   {
     num: "06",
-    title: "Launch",
-    desc: "Deploying your product to the world and providing post-launch support to ensure continued growth."
+    title: "Launch & Support",
+    desc: "Store submissions, cloud deployment, monitoring, and an SLA-backed support plan so your product keeps getting better after day one."
   }
 ];
 
@@ -43,7 +43,12 @@ const Process = () => {
             <span className="text-mza-neon font-bold uppercase tracking-wider text-sm">How We Work</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="text-4xl lg:text-5xl font-bold mt-4 text-white">Your Product Journey</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold mt-4 text-white">A delivery process you can actually plan around</h2>
+          </RevealAnimation>
+          <RevealAnimation delay={0.3}>
+            <p className="text-gray-400 text-lg mt-6 max-w-2xl mx-auto">
+              Six clearly-defined stages, weekly sprints, and a senior lead accountable for your product from day one.
+            </p>
           </RevealAnimation>
         </div>
 
